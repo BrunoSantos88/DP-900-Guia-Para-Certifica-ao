@@ -1,2 +1,3 @@
-# DP-900-Guia-Para-Certifica-ao
-# Curso ministrado pelo SENAI usando conceitos de Learning path
+# DP-900-Guia-Para-Certificação
+
+# Curso ministrado pelo SENAI,usando conceitos de Learning path

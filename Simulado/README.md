@@ -8,3 +8,5 @@ Link Simulado Microsoft: https://learn.microsoft.com/pt-br/certifications/exams/
 -Microsoft:   </p>
 -Simulados Senai: </p>
 -Provas 680 pontos minha ultima tentativa. </p>
+
+# Perguntas e que tenho Duvidas;

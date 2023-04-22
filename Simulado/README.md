@@ -5,7 +5,7 @@ Link Simulado Microsoft: https://learn.microsoft.com/pt-br/certifications/exams/
 
 # Pontuaçoes e tentativas:
 
--Microsoft:   </p>
+-Microsoft: 50%  </p>
 -Simulados Senai: </p>
 -Provas 680 pontos minha ultima tentativa. </p>
 

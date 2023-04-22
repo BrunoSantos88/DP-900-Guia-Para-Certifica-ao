@@ -1,5 +1,3 @@
-# DP-900-Guia-Para-Certificação
+# Simulados Senai e Microsfot e Algunas perguntas de outros Simulado.
 
-# Curso ministrado pelo SENAI,usando conceitos de Learning path.
-
-Link roteiro DP-900: https://learn.microsoft.com/pt-br/training/browse/?terms=DP-900&resource_type=learning%20path&subjects=data-ai
+Link Simulado Microsoft: https://learn.microsoft.com/pt-br/certifications/exams/dp-900/practice/assessment?assessment-type=practice&assessmentId=24

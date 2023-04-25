@@ -50,4 +50,5 @@ Link: https://azure.microsoft.com/pt-br/products/category/databases
 
 - Aplica-se a: Banco de Dados SQL do Azure
 
-https://learn.microsoft.com/pt-br/azure/azure-sql/database/sql-database-paas-overview?view=azuresql
+Link: https://learn.microsoft.com/pt-br/azure/azure-sql/database/sql-database-paas-overview?view=azuresql </p>
+Link: https://learn.microsoft.com/pt-br/azure/azure-sql/database/doc-changes-updates-release-notes-whats-new?view=azuresql

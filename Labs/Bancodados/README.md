@@ -45,3 +45,9 @@ Migre suas cargas de trabalho do SQL para o Azure mantendo a compatibilidade do 
 - Modernize os aplicativos e clusters de dados do Cassandra e desfrute de flexibilidade e liberdade com o serviço de instância gerenciada	Instância Gerenciada do Azure para Apache Cassandra
 
 Link: https://azure.microsoft.com/pt-br/products/category/databases
+
+# O que é o Banco de Dados SQL do Azure?
+
+- Aplica-se a: Banco de Dados SQL do Azure
+
+https://learn.microsoft.com/pt-br/azure/azure-sql/database/sql-database-paas-overview?view=azuresql

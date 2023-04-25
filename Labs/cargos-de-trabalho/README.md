@@ -26,3 +26,7 @@ Eles também são responsáveis por garantir que a privacidade dos dados seja ma
 Data Analyst icon Um analista de dados permite que as empresas maximizem o valor dos ativos de dados. Eles são responsáveis por explorar dados para identificar tendências e relações, projetar e criar modelos analíticos e favorecer capacidades avançadas de análise por meio de relatórios e visualizações.
 
 Um Analista de Dados processa dados brutos e, com base em requisitos empresariais identificados, os transforma para fornecer insights relevantes.
+
+# Observação
+
+As funções descritas aqui representam as principais funções relacionadas a dados encontradas na maioria das organizações de médio a grande porte. Há outras funções relacionadas a dados não mencionadas aqui, como cientista de dados e arquiteto de dados, e há outros profissionais técnicos que trabalham com os dados, incluindo desenvolvedores de aplicativos e engenheiros de software.

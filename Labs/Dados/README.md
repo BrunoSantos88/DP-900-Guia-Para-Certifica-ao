@@ -93,3 +93,34 @@ O seguinte exemplo mostra dados de clientes em formato delimitado por vírgulas:
 FirstName,LastName,Email </p>
 Joe,Jones,joe@litware.com </p>
 Samir,Nadoy,samir@northwind.com </p>
+
+
+# JSON (JavaScript Object Notation)
+O JSON é um formato onipresente no qual um esquema de documento hierárquico é usado para definir entidades de dados (objetos) que têm vários atributos. Cada atributo pode ser um objeto (ou uma coleção de objetos), tornando o JSON um formato flexível que é bom para dados estruturados e semiestruturados.
+
+O exemplo a seguir mostra um documento JSON que contém uma coleção de clientes. Cada cliente tem três atributos (firstName, lastName e contact) e o atributo contact contém uma coleção de objetos que representam um ou mais métodos de contato (email ou telefone). Observe que os objetos estão entre chaves ({..}) e as coleções estão entre colchetes ([..]). Os atributos são representados por pares nome:valor e separados por vírgulas (,).
+
+# {1>linguagem XML<1}
+O XML é um formato de dados legível que foi popular nos anos 90 e 2000. Ele tem sido amplamente substituído pelo formato JSON que é menos detalhado, mas ainda há alguns sistemas que usam XML para representar dados. O XML usa marcas delimitadas por colchetes angulares (../) para definir elementos e atributos, conforme mostrado neste exemplo:
+
+XML
+
+Copiar
+<Customers>
+  <Customer name="Joe" lastName="Jones">
+    <ContactDetails>
+      <Contact type="home" number="555 123-1234"/>
+      <Contact type="email" address="joe@litware.com"/>
+    </ContactDetails>
+  </Customer>
+  <Customer name="Samir" lastName="Nadoy">
+    <ContactDetails>
+      <Contact type="email" address="samir@northwind.com"/>
+    </ContactDetails>
+  </Customer>
+</Customers>
+
+# BLOB (objeto binário grande)
+Em última análise, todos os arquivos são armazenados como dados binários (1 e 0), mas nos formatos legíveis descritos acima, os bytes de dados binários são mapeados em caracteres imprimíveis (normalmente por um esquema de codificação de caracteres, como ASCII ou Unicode). No entanto, alguns formatos de arquivo, particularmente para dados não estruturados, armazenam os dados como binários brutos que devem ser interpretados por aplicativos e renderizados. Os tipos comuns de dados armazenados como binários incluem imagens, vídeo, áudio e documentos específicos de aplicativos.
+
+Ao trabalhar com esses dados, os profissionais de dados geralmente se referem aos arquivos de dados como BLOBs (objetos binários grandes).

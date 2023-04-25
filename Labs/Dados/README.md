@@ -84,3 +84,12 @@ O tipo de dados que está sendo armazenado (estruturado, semiestruturado ou não
 Os aplicativos e serviços que precisarão ler, gravar e processar os dados.
 A necessidade de que os arquivos de dados sejam legíveis por seres humanos ou otimizados para armazenamento e processamento eficientes.
 Alguns formatos de arquivo comuns são discutidos abaixo.
+
+# Arquivos de texto delimitado
+Geralmente, os dados são armazenados em formato de texto sem formatação com delimitadores de campo e terminadores de linha específicos. O formato mais comum para dados delimitados é CSV (valores separados por vírgula) nos quais os campos são separados por vírgulas e as linhas terminam com um retorno de carro/nova linha. Opcionalmente, a primeira linha pode incluir os nomes de campo. Outros formatos comuns incluem TSV (valores separados por tabulação) e delimitado por espaço (em que as tabulações ou os espaços são usados para separar campos) e dados de largura fixa em que a cada campo é alocado um número fixo de caracteres. O texto delimitado é uma boa opção para dados estruturados que precisam ser acessados por uma ampla variedade de aplicativos e serviços em um formato legível.
+
+O seguinte exemplo mostra dados de clientes em formato delimitado por vírgulas:
+
+FirstName,LastName,Email
+Joe,Jones,joe@litware.com
+Samir,Nadoy,samir@northwind.com

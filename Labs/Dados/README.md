@@ -90,6 +90,6 @@ Geralmente, os dados são armazenados em formato de texto sem formatação com d
 
 O seguinte exemplo mostra dados de clientes em formato delimitado por vírgulas:
 
-FirstName,LastName,Email
-Joe,Jones,joe@litware.com
-Samir,Nadoy,samir@northwind.com
+FirstName,LastName,Email </p>
+Joe,Jones,joe@litware.com </p>
+Samir,Nadoy,samir@northwind.com </p>

@@ -25,3 +25,14 @@ Nesse caso, é comum acontecer que as equipes de TI fiquem paradas esperando que
 O stream também podem estar envolvido no processamento de grandes quantidades de dados, mas o batch funciona melhor quando você não precisa de análises em tempo real.
 
 Como o processamento stream é responsável pelo processamento de dados em movimento e pelo rápido fornecimento de análise, ele gera resultados quase instantâneos usando plataformas de
+
+# Quando escolher batch ou stream?
+Se você não tem uma longa história de trabalho com o processamento de stream, você pode perguntar: “por que não podemos apenas o batch como antes?”. Você certamente pode, mas se tiver enormes volumes de dados, não é uma questão de quando você precisar extraí-los, mas quando precisará usá-los.
+
+As empresas veem os dados em tempo real como um divisor de águas, mas ainda pode ser um desafio chegar lá sem as ferramentas adequadas, principalmente, porque elas precisam trabalhar com volumes, variedades e tipos de dados cada vez maiores de diversos sistemas, como mídias sociais.
+
+Normalmente, as organizações querem ter processos de dados mais ágeis para poderem passar da imaginação para a inovação mais rapidamente e responder às ameaças da concorrência.
+
+Por exemplo, os dados enviados dos sensores de uma turbina eólica estão sempre ligados. Assim, o fluxo de dados é ininterrupto e flui o tempo todo. Uma abordagem em batch aqui seria obsoleta, pois não há início ou parada do fluxo. Esse é um caso de uso perfeito em que o processamento de stream é o caminho a percorrer.
+
+O processamento de dados em batch e stream são dois modelos diferentes — não é uma questão de escolher um sobre o outro, é sobre ser assertivo e determinar qual é o melhor para cada caso de uso.

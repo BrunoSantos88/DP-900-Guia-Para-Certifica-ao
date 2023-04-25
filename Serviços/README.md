@@ -1,5 +1,9 @@
 # Indentificar serviços de dados
 
+Exemplo: </p>
+</p>
+<img src="https://user-images.githubusercontent.com/91704169/234309355-0c4dbbce-85c6-4629-bfba-847ca6851793.png" width="1000px" align="centter" alt="planos">
+
 O Microsoft Azure é uma plataforma de nuvem que potencializa os aplicativos e a infraestrutura de TI de algumas das maiores organizações do mundo. Ele inclui muitos serviços para dar suporte a soluções de nuvem, incluindo cargas de trabalho de dados transacionais e analíticas.
 
 Alguns dos serviços de nuvem mais usados para dados estão descritos abaixo.

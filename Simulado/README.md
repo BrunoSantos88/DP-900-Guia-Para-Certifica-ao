@@ -47,3 +47,5 @@ Banco de Dados SQL do Azure </P>
 Instância Gerenciada SQL do Azure (correta) </P>
 SQL Server em Máquinas Virtuais do Azure executando o Windows </P>
 SQL Server em Máquinas Virtuais do Azure executando Linux </P>
+
+- Feedback : Azure SQL Managed Instance é um serviço de plataforma como serviço (PaaS) que dá suporte à maioria dos mesmos recursos do Azure SQL. O Azure SQL não oferece suporte a tantos recursos SQL quanto a SQL Managed Instance. SQL Server em Máquinas Virtuais do Azure executando Windows e Linux não são gerenciados.

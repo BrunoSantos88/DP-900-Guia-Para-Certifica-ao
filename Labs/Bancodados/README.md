@@ -43,3 +43,5 @@ Migre suas cargas de trabalho do SQL para o Azure mantendo a compatibilidade do 
 - Acelere sua transição para a nuvem usando um processo de migração simples e autodirigido	Serviço de Migração de Banco de Dados do Azure
 
 - Modernize os aplicativos e clusters de dados do Cassandra e desfrute de flexibilidade e liberdade com o serviço de instância gerenciada	Instância Gerenciada do Azure para Apache Cassandra
+
+Link: https://azure.microsoft.com/pt-br/products/category/databases

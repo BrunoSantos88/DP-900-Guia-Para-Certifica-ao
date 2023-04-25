@@ -42,3 +42,11 @@ O processamento de dados em batch e stream são dois modelos diferentes — não
 O processamento em lote é quando um computador processa várias tarefas reunidas em um grupo. Ele foi projetado para ser um processo totalmente automatizado, sem intervenção humana. Também pode ser chamado de automação de carga de trabalho (WLA) e agendamento de tarefas.
 
 O processamento em lote é uma maneira incrivelmente econômica de processar grandes quantidades de dados em um curto período de tempo. Uma vez iniciado o processo, o computador só para quando descobre um erro ou anormalidade, notificando o funcionário ou gerente apropriado.
+
+
+# ETL (extração, transformação e carregamento)
+Synapse Analytics
+Data Factory
+Um problema comum que as organizações enfrentam é como coletar dados de várias fontes em vários formatos. Depois, você precisa movê-los para um ou mais armazenamentos de dados. O destino pode não ser o mesmo tipo de armazenamento de dados que a origem. Muitas vezes, o formato é diferente ou os dados precisam ser formatados ou limpos antes de serem carregados no destino final.
+
+Várias ferramentas, serviços e processos foram desenvolvidos ao longo dos anos para ajudar a solucionar esses desafios. Qualquer que seja o processo utilizado, há uma necessidade comum de coordenar o trabalho e aplicar algum nível de transformação de dados dentro do pipeline de dados. As seções a seguir destacam os métodos comuns usados para executar essas tarefas.

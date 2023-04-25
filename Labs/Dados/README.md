@@ -73,3 +73,14 @@ Há duas categorias amplas de armazenamento de dados comuns em uso:
 Armazenamentos de arquivos
 Bancos de dados
 Exploraremos esses dois tipos de armazenamento de dados nos tópicos subsequentes.
+
+# Explorar o armazenamento de arquivos
+
+A capacidade de armazenar dados em arquivos é um elemento básico de qualquer sistema computacional. Os arquivos podem ser armazenados em sistemas de arquivos locais no disco rígido do seu PC e em mídia removível, como unidades USB. Mas, na maioria das organizações, arquivos de dados importantes são armazenados de maneira centralizada em algum tipo de sistema de armazenamento de arquivos compartilhado. Cada vez mais, esse local de armazenamento central está sendo hospedado na nuvem, possibilitando um armazenamento econômico, seguro e confiável para grandes volumes de dados.
+
+O formato de arquivo específico usado para armazenar dados depende de vários fatores, incluindo:
+
+O tipo de dados que está sendo armazenado (estruturado, semiestruturado ou não estruturado).
+Os aplicativos e serviços que precisarão ler, gravar e processar os dados.
+A necessidade de que os arquivos de dados sejam legíveis por seres humanos ou otimizados para armazenamento e processamento eficientes.
+Alguns formatos de arquivo comuns são discutidos abaixo.

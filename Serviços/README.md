@@ -22,17 +22,18 @@ Os analistas de dados podem consultar os bancos de dados SQL do Azure diretament
 # Banco de dados do Azure para bancos dados relacionais de código aberto
 Azure Database for MariaDB, MySQL, and PostreSQL logos O Azure inclui serviços gerenciados para sistemas de banco de dados relacionais populares de código aberto, incluindo:
 
-Banco de Dados do Azure para MySQL – um sistema de gerenciamento de banco de dados de código aberto fácil de usar que é comumente usado em aplicativos da pilha LAMP (Linux, Apache, MySQL e PHP).
+- Banco de Dados do Azure para MySQL – um sistema de gerenciamento de banco de dados de código aberto fácil de usar que é comumente usado em aplicativos da pilha LAMP (Linux, Apache, MySQL e PHP).
 
-Banco de Dados do Azure para MariaDB – um sistema de gerenciamento de banco de dados mais recente, criado pelos desenvolvedores originais do MySQL. Desde então, o mecanismo de banco de dados foi reescrito e otimizado para aprimorar o desempenho. O MariaDB tem compatibilidade com o Oracle Database (outro sistema de gerenciamento de banco de dados comercial popular).
+- Banco de Dados do Azure para MariaDB – um sistema de gerenciamento de banco de dados mais recente, criado pelos desenvolvedores originais do MySQL. Desde então, o mecanismo de banco de dados foi reescrito e otimizado para aprimorar o desempenho. O MariaDB tem compatibilidade com o Oracle Database (outro sistema de gerenciamento de banco de dados comercial popular).
 
-Banco de dados do Azure para PostgreSQL – um banco de dados híbrido relacional-objeto. É possível armazenar dados em tabelas relacionais, mas um banco de dados PostgreSQL também permite que você armazene tipos de dados personalizados, com propriedades não relacionais próprias.
+- Banco de dados do Azure para PostgreSQL – um banco de dados híbrido relacional-objeto. É possível armazenar dados em tabelas relacionais, mas um banco de dados PostgreSQL também permite que você armazene tipos de dados personalizados, com propriedades não relacionais próprias.
 
 Assim como acontece com os sistemas de banco de dados SQL do Azure, os bancos de dados relacionais de código aberto são gerenciados por administradores de banco de dados para dar suporte a aplicativos transacionais e fornecem uma fonte de dados para engenheiros de dados, criando pipelines para soluções analíticas e analistas de dados que criam relatórios.
 
 # Azure Cosmos DB
 
-Azure Cosmos DB logo O Azure Cosmos DB é um sistema de banco de dados não relacional (NoSQL) de escala global que dá suporte a várias APIs (interfaces de programação de aplicativo), permitindo que você armazene e gerencie dados como documentos JSON, pares chave-valor, famílias de colunas e grafos.
+- Azure Cosmos DB 
+Logo O Azure Cosmos DB é um sistema de banco de dados não relacional (NoSQL) de escala global que dá suporte a várias APIs (interfaces de programação de aplicativo), permitindo que você armazene e gerencie dados como documentos JSON, pares chave-valor, famílias de colunas e grafos.
 
 Em algumas organizações, instâncias do Cosmos DB podem ser provisionadas e gerenciadas por um administrador de banco de dados, embora os desenvolvedores de software tenham o costume de gerenciar o armazenamento de dados NoSQL como parte da arquitetura geral do aplicativo. Os engenheiros de dados geralmente precisam integrar fontes de dados do Cosmos DB a soluções analíticas corporativas que dão suporte à modelagem e geração de relatórios por analistas de dados.
 
@@ -40,12 +41,12 @@ Em algumas organizações, instâncias do Cosmos DB podem ser provisionadas e ge
 
 Azure Storage logo O Armazenamento do Azure é um serviço principal do Azure que permite armazenar dados em:
 
-Contêineres de blobs – armazenamento escalonável e econômico para arquivos binários.
+- Contêineres de blobs – armazenamento escalonável e econômico para arquivos binários.
 Compartilhamentos de arquivos – compartilhamentos de arquivos de rede, semelhante ao que normalmente é encontrado nas redes corporativas.
 Tabelas – armazenamento de chave-valor para aplicativos que precisam ler e gravar valores de dados rapidamente.
 Os engenheiros de dados usam o Armazenamento do Azure para hospedar data lakes – armazenamentos de blobs com um namespace hierárquico que permite que os arquivos sejam organizados em pastas em um sistema de arquivos distribuído.
 
-Fábrica de dados do Azure
+# Fábrica de dados do Azure (data Factor)
 Azure Data Factory logo O Azure Data Factory é um serviço do Azure que permite definir e agendar pipelines de dados para transferir e transformar dados. Você pode integrar seus pipelines a outros serviços do Azure, possibilitando a ingestão de dados de armazenamentos de dados na nuvem, o processamento dos dados usando a computação baseada em nuvem e a manutenção dos resultados em outro armazenamento de dados.
 
 O Azure Data Factory é usado por engenheiros de dados para criar soluções de ETL (extração, transformação e carregamento) que preenchem os armazenamentos de dados analíticos com os dados de sistemas transacionais na organização.
@@ -53,10 +54,10 @@ O Azure Data Factory é usado por engenheiros de dados para criar soluções de 
 # Azure Synapse Analytics
 Azure Synapse Analytics logo O Azure Synapse Analytics é uma solução de análise de dados abrangente e unificada que oferece uma interface de serviço única para vários recursos analíticos, incluindo:
 
-Pipelines – baseado na mesma tecnologia do Azure Data Factory.
+- Pipelines – baseado na mesma tecnologia do Azure Data Factory.
 SQL – um mecanismo de banco de dados SQL altamente escalonável, otimizado para cargas de trabalho de data warehouse.
 Apache Spark – um sistema de processamento de dados distribuído de código aberto que dá suporte a várias linguagens de programação e APIs, incluindo Java, Scala, Python e SQL.
-Data Explorer do Azure Synapse – uma solução de análise de dados de alto desempenho que é otimizada para consultas em tempo real de dados de log e telemetria usando a KQL (Linguagem de Consulta Kusto).
+- Data Explorer do Azure Synapse – uma solução de análise de dados de alto desempenho que é otimizada para consultas em tempo real de dados de log e telemetria usando a KQL (Linguagem de Consulta Kusto).
 Os engenheiros de dados podem usar o Azure Synapse Analytics para criar uma solução de análise de dados unificada que combina pipelines de ingestão de dados, armazenamento de data warehouse e armazenamento do data lake em um único serviço.
 
 Os analistas de dados podem usar pools de SQL e do Spark por meio de notebooks interativos para explorar e analisar dados e aproveitar a integração com serviços como Azure Machine Learning e Microsoft Power BI para criar modelos de dados e extrair insights dos dados.
@@ -71,11 +72,11 @@ Os analistas de dados podem usar o suporte nativo ao notebook no Azure Databrick
 # Azure HDInsight
 Azure HDInsight logo O Azure HDInsight é um serviço do Azure que fornece clusters hospedados no Azure para tecnologias populares de código aberto de processamento de Big Data do Apache, incluindo:
 
-Apache Spark – um sistema de processamento de dados distribuído que dá suporte a várias linguagens de programação e APIs, incluindo Java, Scala, Python e SQL.
-Apache Hadoop – um sistema distribuído que usa trabalhos MapReduce para processar grandes volumes de dados com eficiência em vários nós de cluster. Os trabalhos MapReduce podem ser escritos em Java ou abstraídos por interfaces como Apache Hive, uma API baseada em SQL que é executada no Hadoop.
-Apache HBase – um sistema de código aberto para armazenamento e consulta de dados NoSQL em larga escala.
-Apache Kafka – um agente de mensagens para processamento de fluxo de dados.
-Apache Storm – um sistema de código aberto para processamento de dados em tempo real por meio de uma topologia de spouts e bolts.
+- Apache Spark – um sistema de processamento de dados distribuído que dá suporte a várias linguagens de programação e APIs, incluindo Java, Scala, Python e SQL.
+- Apache Hadoop – um sistema distribuído que usa trabalhos MapReduce para processar grandes volumes de dados com eficiência em vários nós de cluster. Os trabalhos MapReduce podem ser escritos em Java ou abstraídos por interfaces como Apache Hive, uma API baseada em SQL que é executada no Hadoop.
+- Apache HBase – um sistema de código aberto para armazenamento e consulta de dados NoSQL em larga escala.
+- Apache Kafka – um agente de mensagens para processamento de fluxo de dados.
+- Apache Storm – um sistema de código aberto para processamento de dados em tempo real por meio de uma topologia de spouts e bolts.
 Os engenheiros de dados podem usar o Azure HDInsight para dar suporte a cargas de trabalho de análise de Big Data que dependem de várias tecnologias de código aberto.
 
 # Stream Analytics do Azure

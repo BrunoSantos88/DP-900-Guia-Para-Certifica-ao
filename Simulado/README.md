@@ -37,7 +37,7 @@ Banco de Dados SQL do Azure </P>
 Microsoft Power BI </P>
 Azure Synapse Analytics (Correto) </P>
 
-# Pergunta 3
+# Pergunta 4
 
 O que é totalmente gerenciado e não requer alterações em um banco de dados para migração?
 

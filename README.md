@@ -36,3 +36,9 @@ Normalmente, as organizações querem ter processos de dados mais ágeis para po
 Por exemplo, os dados enviados dos sensores de uma turbina eólica estão sempre ligados. Assim, o fluxo de dados é ininterrupto e flui o tempo todo. Uma abordagem em batch aqui seria obsoleta, pois não há início ou parada do fluxo. Esse é um caso de uso perfeito em que o processamento de stream é o caminho a percorrer.
 
 O processamento de dados em batch e stream são dois modelos diferentes — não é uma questão de escolher um sobre o outro, é sobre ser assertivo e determinar qual é o melhor para cada caso de uso.
+
+
+# O que é processamento em lote?
+O processamento em lote é quando um computador processa várias tarefas reunidas em um grupo. Ele foi projetado para ser um processo totalmente automatizado, sem intervenção humana. Também pode ser chamado de automação de carga de trabalho (WLA) e agendamento de tarefas.
+
+O processamento em lote é uma maneira incrivelmente econômica de processar grandes quantidades de dados em um curto período de tempo. Uma vez iniciado o processo, o computador só para quando descobre um erro ou anormalidade, notificando o funcionário ou gerente apropriado.

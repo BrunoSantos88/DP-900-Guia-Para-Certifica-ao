@@ -36,3 +36,14 @@ Spark?
 Banco de Dados SQL do Azure </P>
 Microsoft Power BI </P>
 Azure Synapse Analytics (Correto) </P>
+
+# Pergunta 3
+
+O que é totalmente gerenciado e não requer alterações em um banco de dados para migração?
+
+Selecione apenas uma resposta.
+
+Banco de Dados SQL do Azure </P>
+Instância Gerenciada SQL do Azure (correta) </P>
+SQL Server em Máquinas Virtuais do Azure executando o Windows </P>
+SQL Server em Máquinas Virtuais do Azure executando Linux </P>

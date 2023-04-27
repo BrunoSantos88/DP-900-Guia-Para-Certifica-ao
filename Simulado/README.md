@@ -68,3 +68,16 @@ MERGE </p>
 INSERT  </p>
 UPDATE </p>
 ALTER  (correta) </p>
+
+# Pergunta 7
+
+Escolha a opção correta para completar a frase: ___________________ suportam nativamente a análise de relacionamentos entre entidades.
+
+Bancos de dados de família de colunas
+ 
+Bancos de dados de gráficos (correta) </p>
+Bancos de dados de documentos </p>
+Armazenamentos de valores-chave </p>
+
+
+Link: https://docs.microsoft.com/pt-br/azure/architecture/guide/technology-choices/data-store-overview

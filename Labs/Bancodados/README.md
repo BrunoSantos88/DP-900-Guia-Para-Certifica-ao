@@ -53,7 +53,7 @@ Link: https://azure.microsoft.com/pt-br/products/category/databases
 Link: https://learn.microsoft.com/pt-br/azure/azure-sql/database/sql-database-paas-overview?view=azuresql </p>
 Link: https://learn.microsoft.com/pt-br/azure/azure-sql/database/doc-changes-updates-release-notes-whats-new?view=azuresql
 
-# Commandos SQL
+# Commandos SQL para alteraçao e manipulaçao.
 
 # DML: consultando e modificando os registros da tabela
 O DML, ou Data Manipulation Language é um subconjunto do SQL que diz respeito aos comandos utilizados para manipular diretamente os dados de uma tabela (ou banco de dados).
@@ -139,3 +139,42 @@ Esse comando também pode ser utilizados para excluir um banco de dados inteiro,
 Com a linha DROP TABLE tabela exemplo;, é possível excluir a tabela exemplo de um banco de dados.
 Com a linha DROP DATABASE banco exemplo;, é possível excluir o banco de dados banco exemplo inteiro.
 
+
+# Commando de Permicionamento;
+
+# DCL: definindo permissões aos objetos do banco de dados
+
+O subconjunto dos comandos DCL, ou Data Control Language, é responsável por controlar o acesso e os níveis de privilégios de diferentes usuários aos registros de um banco de dados.
+
+Com ele, é possível conferir mais segurança aos seus dados.
+
+Vejamos, abaixo, os três principais comandos deste grupo.
+
+# Grant: permitindo acesso a objetos do banco de dados
+Com o comando grant é possível permitir diferentes tipos de privilégios nos acessos a uma tabela.
+
+Em suma, podemos dizer que determinadas ações só podem ser tomadas por determinados usuários.
+
+Veja o exemplo de utilização abaixo:
+
+- GRANT SELECT, INSERT, UPDATE ON tabela exemplo TO Usuario1;
+
+Na linha acima, estipulamos que os comandos select, insert e update só podem ser utilizados na tabela exemplo pelo Usuario1.
+
+# Revoke: removendo o acesso a objetos do banco de dados
+Com o comando revoke, podemos fazer o oposto ao comando anterior: ele revoga os privilégios concedidos a determinados usuários.
+
+Para utilizá-lo, basta seguir a seguinte sintaxe:
+
+- REVOKE SELECT ON tabela exemplo FROM  Usuario1;
+
+Na linha acima, revogamos o privilégios do Usuario1 de utilizar o comando select na tabela exemplo.
+
+# Deny: bloqueando o acesso para objetos e usuários específicos
+O comando deny é mais amplo, negando explicitamente o acesso ou permissões, a um banco de dados ou tabela, a um usuário específico.
+
+Veja, abaixo, um exemplo de sua utilização:
+
+- DENY SELECT ON tabela exemplo TO Usuario2;
+
+Acima, estamos estipulando que o Usuario2 teve o seu acesso ao comando select, na tabela exemplo, totalmente negado.

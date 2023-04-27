@@ -49,3 +49,28 @@ SQL Server em Máquinas Virtuais do Azure executando o Windows </P>
 SQL Server em Máquinas Virtuais do Azure executando Linux </P>
 
 - Feedback : Azure SQL Managed Instance é um serviço de plataforma como serviço (PaaS) que dá suporte à maioria dos mesmos recursos do Azure SQL. O Azure SQL não oferece suporte a tantos recursos SQL quanto a SQL Managed Instance. SQL Server em Máquinas Virtuais do Azure executando Windows e Linux não são gerenciados.
+
+# Pergunta 5
+
+Escolha a opção correta para completar a frase: ___________________ é um objeto associado a uma tabela que classifica e armazena as linhas de dados com base em seus valores de chave.
+
+Uma tabela de arquivos
+Um procedimento armazenado
+Uma chave estrangeir
+Um índice clusterizado
+
+Resposta correta
+Um índice clusterizado
+
+
+# Pergunta 6
+
+Você precisa modificar uma exibição em um banco de dados relacional adicionando uma nova coluna. Qual declaração você deve usar?
+
+MERGE
+INSERT
+UPDATE
+ALTER 
+
+Resposta correta
+ALTER

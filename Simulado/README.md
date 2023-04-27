@@ -59,7 +59,7 @@ Um procedimento armazenado  </p>  </p>
 Uma chave estrangeir  </p>
 Um índice clusterizado  </p>
 
-Resposta correta
+Resposta correta  </p>
 Um índice clusterizado
 
 
@@ -72,5 +72,5 @@ INSERT  </p>
 UPDATE </p>
 ALTER   </p>
 
-Resposta correta
+Resposta correta </p>
 ALTER

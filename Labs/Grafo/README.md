@@ -31,3 +31,7 @@ Quadros da organização
 Gráficos sociais
 Detecção de fraude
 Mecanismos de recomendação
+
+Exemplo: </p>
+</p>
+<img src="https://user-images.githubusercontent.com/91704169/234874515-16b1b4bb-0ab8-4c55-a0a2-b8aa4c4c3411.png" width="1000px" align="centter" alt="planos">

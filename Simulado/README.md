@@ -54,10 +54,10 @@ SQL Server em Máquinas Virtuais do Azure executando Linux </P>
 
 Escolha a opção correta para completar a frase: ___________________ é um objeto associado a uma tabela que classifica e armazena as linhas de dados com base em seus valores de chave.
 
-Uma tabela de arquivos
-Um procedimento armazenado
-Uma chave estrangeir
-Um índice clusterizado
+Uma tabela de arquivos  </p>
+Um procedimento armazenado  </p>  </p>
+Uma chave estrangeir  </p>
+Um índice clusterizado  </p>
 
 Resposta correta
 Um índice clusterizado
@@ -67,10 +67,10 @@ Um índice clusterizado
 
 Você precisa modificar uma exibição em um banco de dados relacional adicionando uma nova coluna. Qual declaração você deve usar?
 
-MERGE
-INSERT
-UPDATE
-ALTER 
+MERGE </p>
+INSERT  </p>
+UPDATE </p>
+ALTER   </p>
 
 Resposta correta
 ALTER

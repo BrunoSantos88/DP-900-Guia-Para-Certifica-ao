@@ -57,10 +57,7 @@ Escolha a opção correta para completar a frase: ___________________ é um obje
 Uma tabela de arquivos  </p>
 Um procedimento armazenado  </p>  </p>
 Uma chave estrangeir  </p>
-Um índice clusterizado  </p>
-
-Resposta correta  </p>
-Um índice clusterizado
+Um índice clusterizado (correta) </p>
 
 
 # Pergunta 6
@@ -70,7 +67,4 @@ Você precisa modificar uma exibição em um banco de dados relacional adicionan
 MERGE </p>
 INSERT  </p>
 UPDATE </p>
-ALTER   </p>
-
-Resposta correta </p>
-ALTER
+ALTER  (correta) </p>

@@ -178,3 +178,20 @@ Veja, abaixo, um exemplo de sua utilização:
 - DENY SELECT ON tabela exemplo TO Usuario2;
 
 Acima, estamos estipulando que o Usuario2 teve o seu acesso ao comando select, na tabela exemplo, totalmente negado.
+
+Tabelas ou exibições podem conter os seguintes tipos de índices:
+
+ # Clusterizado
+
+Os índices clusterizados classificam e armazenam as linhas de dados da tabela ou exibição com base em seus valores de chave. Essas são as colunas incluídas na definição do índice. Pode haver apenas um índice clusterizado por tabela, pois as linhas de dados podem ser classificadas somente em uma única ordem.  
+O único momento em que as linhas de dados de uma tabela são armazenadas na ordem de classificação é quando a tabela contém um índice clusterizado. Se a tabela contiver um índice clusterizado, será denominada tabela clusterizada. Se a tabela não possuir nenhum índice clusterizado, suas linhas de dados ficarão armazenadas em uma estrutura não ordenada denominada heap.
+
+# Não clusterizado
+
+Os índices não clusterizados têm uma estrutura distinta das linhas de dados. O índice não clusterizado contém os valores de chave de índice não clusterizado e cada entrada de valor de chave tem um ponteiro para a linha de dados que contém o valor de chave.
+
+O ponteiro de uma linha de índice em um índice não clusterizado de uma linha de dados é denominado localizador de linhas. A estrutura do localizador de linhas depende de as páginas de dados serem armazenadas em um heap ou em uma tabela clusterizada. Para o heap, o localizador de linhas é um ponteiro para a linha. Para a tabela clusterizada, o localizador de linhas é a chave de índice clusterizado.
+
+Você pode adicionar colunas não chave ao nível folha do índice não clusterizado para ignorar os limites de chave de índice existente e executar consultas completamente abrangidas e indexadas. Para obter mais informações, confira Criar índices com colunas inclusas. Para obter detalhes sobre os limites do índice de chave, confira Especificações de capacidade máxima do SQL Server.
+
+Tanto os índices clusterizados quanto os não clusterizados podem ser exclusivos. Isso significa que duas linhas não podem ter o mesmo valor que a chave de índice. Caso contrário, o índice não será exclusivo e várias linhas poderão compartilhar o mesmo valor de chave. Para obter mais informações, confira Criar índices exclusivos.

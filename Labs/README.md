@@ -18,6 +18,9 @@ Neste exercício, você provisionará um recurso do Banco de Dados do Azure para
 Link: https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-01b-mysql-lab.html
 
 # Exercício: Explorar o Armazenamento do Azure
+ - CRIAR SQL AZURE
+ - CRIAR MYSQL AZURE 
+ - CRIAR POSTGRESS AZURE
 
 Link: https://learn.microsoft.com/pt-br/training/modules/explore-provision-deploy-non-relational-data-services-azure/6-exercise-azure-storage?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-non-relational-data
 

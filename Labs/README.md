@@ -21,6 +21,8 @@ Link: https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Ins
 
 Link: https://learn.microsoft.com/pt-br/training/modules/explore-provision-deploy-non-relational-data-services-azure/6-exercise-azure-storage?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-non-relational-data
 
+ - Baixar arquivo https://aka.ms/product1.json
+
 - Provisione uma conta de armazenamento do Azure
 - Explorar o armazenamento de blobs
 - Explorar Azure Data Lake Storage Gen2

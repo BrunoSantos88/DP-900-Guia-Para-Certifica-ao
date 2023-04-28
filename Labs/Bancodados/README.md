@@ -54,6 +54,10 @@ Link: https://learn.microsoft.com/pt-br/azure/azure-sql/database/sql-database-pa
 Link: https://learn.microsoft.com/pt-br/azure/azure-sql/database/doc-changes-updates-release-notes-whats-new?view=azuresql
 
 # Commandos SQL para alteraçao e manipulaçao.
+                   
+Link: https://4future.com.br/index.php/2022/10/18/grupos-de-comando-sql-ddl-dml-dcl/
+
+
 
 # DML: consultando e modificando os registros da tabela
 O DML, ou Data Manipulation Language é um subconjunto do SQL que diz respeito aos comandos utilizados para manipular diretamente os dados de uma tabela (ou banco de dados).

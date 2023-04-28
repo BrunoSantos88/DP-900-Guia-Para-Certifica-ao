@@ -98,3 +98,18 @@ Documentação e terminologia
 O sumário do Armazenamento de Blobs do Azure apresenta duas seções de conteúdo. A seção de conteúdo Data Lake Storage Gen2 fornece as melhores práticas e diretrizes para o uso dos recursos do Data Lake Storage Gen2. A seção de conteúdos do Armazenamento de Blobs fornece diretrizes para recursos da conta não específicos do Data Lake Storage Gen2.
 
 À medida que você se move entre as seções, você pode notar algumas pequenas diferenças de terminologia. Por exemplo, o conteúdo em destaque na documentação do Armazenamento de Blobs usará o termo blob em vez de arquivo. Tecnicamente, os arquivos ingeridos na sua conta de armazenamento se tornam blobs em sua conta. Portanto, o termo está correto. No entanto, o termo blob poderá causar confusão se você estiver habituado com o termo arquivo. Você também verá o termo contêiner usado para se referir a um sistema de arquivos. Considere esses termos como sinônimos.
+
+# Camadas de acesso frequente, esporádico e aos arquivos para os dados de blob
+
+Os dados armazenados na nuvem aumentam em ritmo exponencial. Para gerenciar os custos de suas necessidades de armazenamento em expansão, pode ser útil organizar seus dados com base na frequência com que eles serão acessados e por quanto tempo eles serão retidos. O Armazenamento do Azure oferece diferentes camadas de acesso para que você possa armazenar seus dados de blob da maneira mais econômica com base em como eles estão sendo usados. As camadas de acesso do Armazenamento do Azure incluem:
+
+- Camada quente – uma camada online otimizada para armazenar dados acessados ou modificados com frequência. A camada quente tem os custos de armazenamento mais altos, mas os custos de acesso mais baixos.
+
+- Camada fria – uma camada online otimizada para armazenar dados acessados ou modificados com pouca frequência. Os dados na camada fria devem ser armazenados por um mínimo de 30 dias. A camada fria tem custos de armazenamento mais baixos e custos de acesso mais altos em comparação com a camada quente.
+
+- Camada de arquivos – uma camada offline otimizada para armazenar dados raramente acessados e com requisitos de latência flexíveis, na ordem de horas. Os dados na camada de arquivos devem ser armazenados por um mínimo de 180 dias.
+
+Os limites de capacidade de armazenamento do Azure são definidos no nível da conta, não de acordo com a camada de acesso. Você pode optar por maximizar seu uso de capacidade em uma camada ou distribuir a capacidade em duas ou mais camadas.
+
+
+Link: https://learn.microsoft.com/pt-br/azure/storage/blobs/access-tiers-overview

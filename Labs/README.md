@@ -16,3 +16,13 @@ Provisionar um banco de dados do Azure para recurso MySQL
 Neste exercício, você provisionará um recurso do Banco de Dados do Azure para MySQL.
 
 Link: https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-01b-mysql-lab.html
+
+# Exercício: Explorar o Armazenamento do Azure
+
+Link: https://learn.microsoft.com/pt-br/training/modules/explore-provision-deploy-non-relational-data-services-azure/6-exercise-azure-storage?ns-enrollment-type=learningpath&ns-enrollment-id=learn.wwl.azure-data-fundamentals-explore-non-relational-data
+
+- Provisione uma conta de armazenamento do Azure
+- Explorar o armazenamento de blobs
+- Explorar Azure Data Lake Storage Gen2
+- Explorar arquivos do Azure
+- Explorar Tabelas do Azure

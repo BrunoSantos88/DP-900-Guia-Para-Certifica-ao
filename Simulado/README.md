@@ -133,3 +133,12 @@ Uma coleção de dados que o Power BI usa para criar visualizações </P>
 Uma representação visual dos dados, como um gráfico, um mapa codificado por cores ou outros itens interessantes que você pode criar para representar seus dados </P> visualmente.
 Uma coleção de visualizações que aparecem juntas em uma ou mais páginas. </P>
 Uma página de um relatório ou coleção de visualizações. (correta) </P>
+
+
+# Pergunta 14
+
+Qual serviço você usaria para capturar continuamente dados de um Hub IoT, agregá-los em períodos temporais e armazenar os resultados no Banco de Dados SQL do Azure?
+
+Azure Cosmos DB </P>
+Stream Analytics do Azure (correta) </P>
+Armazenamento do Azure </P>

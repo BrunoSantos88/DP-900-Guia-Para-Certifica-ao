@@ -81,3 +81,27 @@ Armazenamentos de valores-chave </p>
 
 
 Link: https://docs.microsoft.com/pt-br/azure/architecture/guide/technology-choices/data-store-overview
+
+
+# Pergunta 8
+
+1. Quais serviços do Azure você pode usar para criar um pipeline para ingestão e processamento de dados?
+
+Banco de Dados SQL do Azure e Azure Cosmos DB </p>
+Azure Synapse Analytics e Azure Data Factory (correta) </p>
+Azure HDInsight e Azure Databricks </p>
+
+# Pergunta 9
+
+2. O que você precisa definir para implementar um pipeline que lê dados do Armazenamento de Blobs do Azure?
+
+Um serviço vinculado para sua conta de Armazenamento de Blobs do Azure (correta)  </p>
+Um pool de SQL dedicado em seu workspace do Azure Synapse Analytics </p>
+Um cluster do Azure HDInsight em sua assinatura </p>
+
+# Pergunta 10
+
+3. Qual mecanismo de processamento distribuído de código aberto é incluído no Azure Synapse Analytics?
+
+Apache Hadoop </p>
+Apache Spark (correta) </p>

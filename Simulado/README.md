@@ -123,3 +123,13 @@ Exiba e interaja com dashboards compartilhados e relatórios nos aplicativos do 
 Compartilhe seus dashboards com outras pessoas, especialmente as que estiverem trabalhando </P>
 Traga dados para o Power BI Desktop e crie um relatório (correta) </P>
 Publique no serviço do Power BI, no qual você pode criar novas visualizações ou criar dashboards. </P>
+
+
+# Pergunra 13
+
+Qual das afirmações a seguir descreve melhor um dashboard do Power BI?
+
+Uma coleção de dados que o Power BI usa para criar visualizações </P>
+Uma representação visual dos dados, como um gráfico, um mapa codificado por cores ou outros itens interessantes que você pode criar para representar seus dados </P> visualmente.
+Uma coleção de visualizações que aparecem juntas em uma ou mais páginas. </P>
+Uma página de um relatório ou coleção de visualizações. (correta) </P>

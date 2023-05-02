@@ -1,13 +1,16 @@
-# ETL (extração, transformação e carregamento)
-Synapse Analytics
-Data Factory
-Um problema comum que as organizações enfrentam é como coletar dados de várias fontes em vários formatos. Depois, você precisa movê-los para um ou mais armazenamentos de dados. O destino pode não ser o mesmo tipo de armazenamento de dados que a origem. Muitas vezes, o formato é diferente ou os dados precisam ser formatados ou limpos antes de serem carregados no destino final.
+O que é um data warehouse?
+Primeiro, vamos definir o que é um data warehouse e por que você pode querer usar um para sua organização.
 
-Várias ferramentas, serviços e processos foram desenvolvidos ao longo dos anos para ajudar a solucionar esses desafios. Qualquer que seja o processo utilizado, há uma necessidade comum de coordenar o trabalho e aplicar algum nível de transformação de dados dentro do pipeline de dados. As seções a seguir destacam os métodos comuns usados para executar essas tarefas.
+Um data warehouse é um repositório centralizado que armazena dados estruturados (tabelas de banco de dados, planilhas do Excel) e dados semiestruturados (arquivos XML, páginas da Web) para fins de relatório e análise. Os dados fluem de uma variedade de fontes, como sistemas de ponto de venda, aplicativos de negócios e bancos de dados relacionais, e geralmente são limpos e padronizados antes de chegar ao depósito. Como um data warehouse pode armazenar grandes quantidades de informações, ele fornece aos usuários acesso fácil a uma grande quantidade de dados históricos, que podem ser usados para mineração de dados, visualização de dados e outras formas de relatórios de business intelligence.
 
-# ELT (extração, carregamento e transformação)
-O ELT (extração, carregamento e transformação) difere do ETL somente no local em que ocorre a transformação. No pipeline de ELT, a transformação ocorre no armazenamento de dados de destino. Em vez de usar um mecanismo de transformação separado, as funcionalidades de processamento do armazenamento de dados de destino são usadas para transformar os dados. Isso simplifica a arquitetura pela remoção do mecanismo de transformação do pipeline. Outro benefício dessa abordagem é que o dimensionamento do armazenamento de dados de destino também dimensiona o desempenho do pipeline ELT. No entanto, o ELT só funciona bem quando o sistema de destino é poderoso o suficiente para transformar os dados com eficiência.
+# Conceito de Data Warehouse
+O Data Warehouse é um armazém de dados ou repositório de dados. Trata-se de uma estrutura de armazenamento que guarda dados em um formato estruturado para facilitar consultas e análises. Não é somente um conjunto de dados, mas um conjunto disposto para facilitar o uso por ferramentas analíticas.
 
+Nesse sentido, um warehouse se destaca como uma opção para coleta e tratamento do Big Data. Além disso, é uma importante ferramenta para projetos de Data Science, servindo como uma base estrutural com dados para treinamento de algoritmos.
+
+Em suma, o DW registra os dados e os históricos associados para possibilitar a melhor tomada de decisão de gestores. Dessa forma, permite responder a perguntas importantes do negócio, como quantas vendas foram feitas no mês X, quantos clientes desistiram do serviço no mês passado e outras questões relacionadas.
+
+O time de marketing, por exemplo, pode olhar para dados de acesso do site e do blog para pensar em abordagens de SEO ou melhorias consideráveis na personalização do conteúdo. O marketing de conteúdo e o email marketing também são favorecidos com o uso do warehouse como um repositório central de dados, uma vez que é possível o ajuste das estratégias constantemente.
 
 Exemplo: </p>
 </p>

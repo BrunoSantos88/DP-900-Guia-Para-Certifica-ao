@@ -113,3 +113,13 @@ Como você pode permitir que usuários distribuídos globalmente trabalhem com u
 Crie uma conta de Azure Cosmos DB em cada região em que você tenha usuários. </p>
 Use a API de Tabela para copiar dados para o Armazenamento de Tabelas do Azure em cada região em que você tenha usuários. </p>
 Habilite gravações de várias regiões e adicione as regiões onde você tem usuários. (correta) </p>
+
+
+# Pergunta 12
+
+No fluxo de trabalho comum do Power BI, qual das seguintes etapas vem primeiro?
+
+Exiba e interaja com dashboards compartilhados e relatórios nos aplicativos do Power BI Mobile. </P>
+Compartilhe seus dashboards com outras pessoas, especialmente as que estiverem trabalhando </P>
+Traga dados para o Power BI Desktop e crie um relatório (correta) </P>
+Publique no serviço do Power BI, no qual você pode criar novas visualizações ou criar dashboards. </P>

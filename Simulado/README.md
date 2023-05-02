@@ -105,3 +105,11 @@ Qual mecanismo de processamento distribuído de código aberto é incluído no A
 
 Apache Hadoop </p>
 Apache Spark (correta) </p>
+
+# Pergunta 11
+
+Como você pode permitir que usuários distribuídos globalmente trabalhem com uma réplica local própria de um banco de dados do Cosmos DB?
+ 
+Crie uma conta de Azure Cosmos DB em cada região em que você tenha usuários. </p>
+Use a API de Tabela para copiar dados para o Armazenamento de Tabelas do Azure em cada região em que você tenha usuários. </p>
+Habilite gravações de várias regiões e adicione as regiões onde você tem usuários. (correta) </p>

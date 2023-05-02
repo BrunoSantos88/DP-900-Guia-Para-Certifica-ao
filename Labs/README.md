@@ -31,3 +31,9 @@ Link: https://learn.microsoft.com/pt-br/training/modules/explore-provision-deplo
 - Explorar Azure Data Lake Storage Gen2
 - Explorar arquivos do Azure
 - Explorar Tabelas do Azure
+
+# Exercício: Explorar a análise de dados no Azure com o Azure Synapse Analytics
+
+Neste exercício, você criará um workspace do Azure Synapse Analytics e o usará para ingerir e analisar alguns dados.
+
+O exercício foi projetado para familiarizar você com alguns dos principais elementos de uma solução em larga escala de data warehousing, não como um guia abrangente para executar análise avançada de dados com o Azure Synapse Analytics. O exercício levará cerca de 30 minutos para ser concluído.

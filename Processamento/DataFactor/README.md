@@ -105,4 +105,4 @@ O Data Warehouse é uma das mais importantes tecnologias quando falamos em armaz
 
 Exemplo: </p>
 </p>
-<img src="https://user-images.githubusercontent.com/91704169/234309355-0c4dbbce-85c6-4629-bfba-847ca6851793.png" width="1000px" align="centter" alt="planos">
+<img src="https://user-images.githubusercontent.com/91704169/235674570-c7b22a48-32d8-4066-8a69-b96b5101ca35.gif" width="1000px" align="centter" alt="planos">

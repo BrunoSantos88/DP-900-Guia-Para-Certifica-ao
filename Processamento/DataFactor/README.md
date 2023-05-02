@@ -1,4 +1,4 @@
-O que é um data warehouse?
+# O que é um data warehouse?
 Primeiro, vamos definir o que é um data warehouse e por que você pode querer usar um para sua organização.
 
 Um data warehouse é um repositório centralizado que armazena dados estruturados (tabelas de banco de dados, planilhas do Excel) e dados semiestruturados (arquivos XML, páginas da Web) para fins de relatório e análise. Os dados fluem de uma variedade de fontes, como sistemas de ponto de venda, aplicativos de negócios e bancos de dados relacionais, e geralmente são limpos e padronizados antes de chegar ao depósito. Como um data warehouse pode armazenar grandes quantidades de informações, ele fornece aos usuários acesso fácil a uma grande quantidade de dados históricos, que podem ser usados para mineração de dados, visualização de dados e outras formas de relatórios de business intelligence.

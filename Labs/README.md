@@ -39,3 +39,16 @@ Neste exercício, você criará um workspace do Azure Synapse Analytics e o usar
 O exercício foi projetado para familiarizar você com alguns dos principais elementos de uma solução em larga escala de data warehousing, não como um guia abrangente para executar análise avançada de dados com o Azure Synapse Analytics. O exercício levará cerca de 30 minutos para ser concluído.
 
 Link: https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-04-synapse-lab.html
+
+# Explorar o Azure Cosmos DB
+Neste exercício, você provisionará um banco de dados do Azure Cosmos DB em sua assinatura do Azure e explorará as várias maneiras de usá-lo para armazenar dados não relacionais.
+
+Este laboratório levará aproximadamente 15 minutos para ser concluído.
+
+Antes que você comece
+Você precisará de uma assinatura do Azure na qual tenha acesso administrativo.
+
+Criar uma conta do Cosmos DB
+Para usar o Cosmos DB, você deve provisionar uma conta do Cosmos DB em sua assinatura do Azure. Neste exercício, você provisionará uma conta do Cosmos DB que usa o Azure Cosmos DB para NoSQL.
+
+link: https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-03-cosmos-lab.html

@@ -63,6 +63,46 @@ Vale mencionar também a não volatilidade dos dados. Isso quer dizer que quando
 
 Assim como os bancos de dados que compõem sua estrutura, um DW é fundamentalmente relacional. Isso quer dizer que lida com linhas e colunas em tabelas simples de compreender. Geralmente, os dados não relacionais precisam passar por uma esquematização antes de serem carregados no warehouse, com o apoio de ferramentas ETL.
 
+#  Agilidade nas consultas
+Justamente por organizar os dados em um formato fácil e padronizado, os warehouses favorecem consultas e análises rápidas, com um melhor desempenho do que outras estruturas. Cada membro dos diferentes departamentos consegue rapidamente responder perguntas emergentes sobre os processos e o negócio, de modo a agir de forma eficaz em tempo real.
+
+# Dados de qualidade
+Se a sua empresa precisa cuidar da qualidade dos dados e assegurar a integridade deles, um DW é uma boa opção para armazenamento. Como já falamos, a arquitetura do DW pressupõe a existência de ferramentas de limpeza dos dados, o que garante que apenas dados claros, limpos e em perfeito estado estarão disponíveis para acesso.
+
+Essa gestão da qualidade dos dados é fundamental para estabelecer compliance com leis e normas externas de proteção e segurança, bem como regras internas de gestão e governança.
+
+# Segurança
+Atualmente, diante das estritas normas de segurança que são impostas às empresas, um DW é muito importante para ajudar a melhorar a administração dos dados e reforçar a proteção. É possível definir regras de acesso, cuidar da qualidade dos dados e manter um controle ativo do ciclo de vida dos ativos enquanto eles estão armazenados no warehouse.
+
+Ademais, os dados concentrados facilitam as ações de segurança. Protocolos podem ser aplicados a todos de uma vez só, como uma configuração-padrão no DW.
+
+# Visão histórica
+Outro ponto de extrema relevância é a visão de dados históricos. Ou seja, como já falamos, o DW não somente registra os dados em um certo momento no tempo, como também gerencia a mudança com o tempo. Ou seja, é possível olhar para tendências temporais e analisar como os dados mudaram e como costumam mudar.
+
+Isso é crucial para análises preditivas, por exemplo. Ao verificar tendências históricas, a empresa consegue prever comportamentos de determinadas variáveis para saber o que esperar. Da mesma forma, os dados históricos servem como base para o treinamento de modelos de machine learning.
+
+Por outro lado, essa visão histórica também é interessante para dashboards e painéis completos de visualização. Caso o usuário final decida criar painéis para visualizar relatórios, indicadores e gráficos, ele pode explorar diferentes ângulos e obter os insights que precisa. Pode ser o time de marketing com um histórico de conversões ou o time de vendas com um histórico de vendas em determinada loja, por exemplo.
+
+# Escalabilidade
+Outra característica vantajosa de Data Warehouses é sua escalabilidade. Essa estrutura é perfeita para lidar com conjuntos crescentes de dados, gerados em tempo real, de diferentes maneiras. Com sua solução de tratamento, o DW consegue se preparar para filtrar e organizar esses dados, independentemente do tamanho deles ou do tamanho dos conjuntos em geral.
+
+Por isso, o DW é flexível o suficiente para gerenciar o Big Data. A sua arquitetura possibilita limpar os dados, armazená-los e prepará-los para a análise rápida, de acordo com o esperado.
+
+# Autonomia para os funcionários
+Outra vantagem de um bom DW é desenvolver autonomia para todos os colaboradores. Diferentemente de outras soluções, que requerem participação ativa e exclusiva de desenvolvedores e pessoas técnicas de TI, um warehouse gera dados para que qualquer um consiga fazer análises.
+
+Ou seja, reforça a noção de análise self-service, em que as pessoas conseguem responder suas perguntas-chave sem um grande embasamento técnico. A própria estrutura já organiza e separa os dados para facilitar relatórios e consultas, de modo que se perca menos tempo com elas, como mencionamos anteriormente.
+
+Assim, há menos peso sobre os ombros do time de TI e as informações fluem mais rápido dentro da companhia.
+
+# Outros benefícios que podemos mencionar:
+
+separação do processamento analítico dos bancos de dados transacionais;
+diminuição do trabalho manual;
+redução de burocracia e custos;
+vantagem competitiva.
+O Data Warehouse é uma das mais importantes tecnologias quando falamos em armazenamento de dados para análise. Trata-se de uma solução imprescindível para gestores que desejam gerar valor e obter insights para decisões em tempo real. Assim, é possível transformar mais dados em informação útil e poderosa para o dia a dia, de modo a otimizar os processos e garantir a continuidade do negócio.
+
 Exemplo: </p>
 </p>
 <img src="https://user-images.githubusercontent.com/91704169/234309355-0c4dbbce-85c6-4629-bfba-847ca6851793.png" width="1000px" align="centter" alt="planos">

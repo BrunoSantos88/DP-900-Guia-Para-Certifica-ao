@@ -46,6 +46,23 @@ Por fim, na arquitetura de um Data Warehouse, temos as ferramentas de acesso. S�
 
 As ferramentas de acesso correspondem à visão do usuário final, que busca os dados para visualização, criação de relatórios, mineração dos dados ou treinamento de modelos de machine learning.
 
+
+# Veja as principais características de um Data Warehouse
+Abaixo, apresentamos algumas das principais características de um DW. Acompanhe!
+
+# Gestão dos dados
+Uma das principais características do DW é a gestão dos dados e da mudança deles. O warehouse viabiliza uma visão histórica dos dados, em vez de somente uma visão do estado atual. Desse modo, a compreensão sobre os dados se torna ainda mais profunda, com assimilação de mais nuances.
+
+# Integração dos dados
+Outro fator é a integração dos dados. No DW, temos uma concentração de dados de diferentes fontes, que surgem em formatos distintos. Dados transacionais, dados estratégicos, de negócio etc.
+
+Essa integração é de certa forma fundamental para fazer o melhor uso dos dados, mas também facilita a gestão deles. A centralização torna a estrutura de um DW mais complexa ao mesmo tempo em que simplifica os próximos passos a partir dele.
+
+# Não volatilidade dos dados
+Vale mencionar também a não volatilidade dos dados. Isso quer dizer que quando os dados estão no warehouse, eles permanecem persistentes e estáveis, sem mudar o seu estado. Mesmo que o DW consiga visualizar os dados em relação a outros mais antigos ou mais recentes (o histórico), os dados em si (cada unidade) permanecem inalterados.
+
+Assim como os bancos de dados que compõem sua estrutura, um DW é fundamentalmente relacional. Isso quer dizer que lida com linhas e colunas em tabelas simples de compreender. Geralmente, os dados não relacionais precisam passar por uma esquematização antes de serem carregados no warehouse, com o apoio de ferramentas ETL.
+
 Exemplo: </p>
 </p>
 <img src="https://user-images.githubusercontent.com/91704169/234309355-0c4dbbce-85c6-4629-bfba-847ca6851793.png" width="1000px" align="centter" alt="planos">

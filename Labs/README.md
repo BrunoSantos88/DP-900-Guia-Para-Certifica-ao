@@ -73,3 +73,8 @@ LInk: https://learn.microsoft.com/pt-br/training/modules/explore-fundamentals-st
 - SEGUIR TUTORIAL
 
 BAIXAR: https://raw.githubusercontent.com/MicrosoftLearning/DP-900T00A-Azure-Data-Fundamentals/master/streaming/Spark%20Structured%20Streaming%20and%20Delta%20Tables.ipynb
+
+
+# Exercício: Explorar Azure Synapse Data Explorer
+
+Neste exercício, você usará o Azure Synapse Data Explorer para analisar dados de série temporal.

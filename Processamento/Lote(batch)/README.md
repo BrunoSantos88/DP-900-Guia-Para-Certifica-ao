@@ -36,3 +36,30 @@ As seguintes tecnologias são opções recomendadas para soluções de processam
 Contentores de Blobs de Armazenamento do Azure. Muitos processos empresariais existentes do Azure já utilizam o armazenamento de blobs do Azure, o que torna esta uma boa opção para um arquivo de macrodados.
 Azure Data Lake Store. O Azure Data Lake Store oferece armazenamento praticamente ilimitado para qualquer tamanho de ficheiro e opções de segurança extensas, tornando-a uma boa opção para soluções de macrodados de grande escala que requerem um arquivo centralizado para dados em formatos heterogéneos.
 Para obter mais informações, veja Armazenamento de dados.
+
+# Processamento em lotes
+U-SQL. O U-SQL é a linguagem de processamento de consultas utilizada pelo Azure Data Lake Analytics. Combina a natureza declarativa do SQL com a extensibilidade processual de C#e tira partido do paralelismo para permitir um processamento eficiente de dados em grande escala.
+Hive. O Hive é um idioma semelhante ao SQL que é suportado na maioria das distribuições do Hadoop, incluindo o HDInsight. Pode ser utilizado para processar dados de qualquer arquivo compatível com HDFS, incluindo o armazenamento de blobs do Azure e o Azure Data Lake Store.
+Porco. Pig é uma linguagem declarativa de processamento de macrodados utilizada em muitas distribuições do Hadoop, incluindo o HDInsight. É particularmente útil para o processamento de dados não estruturados ou semiestruturados.
+Spark. O motor do Spark suporta programas de processamento em lotes escritos numa série de idiomas, incluindo Java, Scala e Python. O Spark utiliza uma arquitetura distribuída para processar dados em paralelo em vários nós de trabalho.
+Para obter mais informações, veja Processamento do Batch.
+
+# Arquivo de dados analítico
+Azure Synapse Analytics. Azure Synapse é um serviço gerido baseado em tecnologias de base de dados SQL Server e otimizado para suportar cargas de trabalho de armazenamento de dados em larga escala.
+SPARK SQL. O SPARK SQL é uma API criada no Spark que suporta a criação de dataframes e tabelas que podem ser consultadas com a sintaxe SQL.
+HBase. O HBase é um arquivo NoSQL de baixa latência que oferece uma opção flexível e de elevado desempenho para consultar dados estruturados e semiestruturados.
+Hive. Além de ser útil para o processamento em lotes, o Hive oferece uma arquitetura de base de dados que é conceptualmente semelhante à de um sistema típico de gestão de bases de dados relacionais. Melhorias no desempenho de consultas do Hive através de inovações como o motor Tez e a iniciativa Stinger significam que as tabelas do Hive podem ser utilizadas eficazmente como origens para consultas analíticas em alguns cenários.
+Para obter mais informações, veja Arquivos de dados analíticos.
+
+# Análises e relatórios
+Azure Analysis Services. Muitas soluções de macrodados emulam arquiteturas de business intelligence empresariais tradicionais ao incluir um modelo de dados centralizado de processamento analítico online (OLAP) (muitas vezes referido como um cubo) no qual os relatórios, dashboards e análise interativa de "segmentação e dados" podem ser baseados. Azure Analysis Services suporta a criação de modelos tabulares para satisfazer esta necessidade.
+Power BI. O Power BI permite que os analistas de dados criem visualizações de dados interativas com base em modelos de dados num modelo OLAP ou diretamente a partir de um arquivo de dados analítico.
+Microsoft Excel. Microsoft Excel é uma das aplicações de software mais utilizadas no mundo e oferece uma grande variedade de capacidades de análise e visualização de dados. Os analistas de dados podem utilizar o Excel para criar modelos de dados de documentos a partir de arquivos de dados analíticos ou para obter dados de modelos de dados OLAP em tabelas dinâmicas e gráficos interativos.
+Para obter mais informações, veja Análise e relatórios.
+
+# Orquestração
+Azure Data Factory. Azure Data Factory pipelines podem ser utilizados para definir uma sequência de atividades, agendadas para janelas temporais periódicas. Estas atividades podem iniciar operações de cópia de dados, bem como tarefas do Hive, Pig, MapReduce ou Spark em clusters do HDInsight a pedido; Tarefas U-SQL no Azure Date Lake Analytics; e procedimentos armazenados na Base de Dados Azure Synapse ou SQL do Azure.
+Oozie e Sqoop. O Oozie é um motor de automatização de tarefas para o ecossistema do Apache Hadoop e pode ser utilizado para iniciar operações de cópia de dados, bem como tarefas do Hive, Pig e MapReduce para processar dados e tarefas do Sqoop para copiar dados entre bases de dados HDFS e SQL.
+Para obter mais informações, veja Orquestração de pipelines
+
+Link: https://learn.microsoft.com/pt-pt/azure/architecture/data-guide/big-data/batch-processing

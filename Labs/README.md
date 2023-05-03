@@ -78,3 +78,5 @@ BAIXAR: https://raw.githubusercontent.com/MicrosoftLearning/DP-900T00A-Azure-Dat
 # Exercício: Explorar Azure Synapse Data Explorer
 
 Neste exercício, você usará o Azure Synapse Data Explorer para analisar dados de série temporal.
+
+Link: https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-05b-stream-synapse-data-explorer.html

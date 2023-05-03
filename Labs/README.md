@@ -67,3 +67,5 @@ Link: https://learn.microsoft.com/pt-br/training/modules/explore-fundamentals-st
 # Exercício: explorar o Streaming do Spark no Azure Synapse Analytics
 
 Neste exercício, você usará o Streaming Estruturado do Spark e tabelas delta no Azure Synapse Analytics para processar dados de streaming.
+
+LInk: Exercício: explorar o Streaming do Spark no Azure Synapse Analytics

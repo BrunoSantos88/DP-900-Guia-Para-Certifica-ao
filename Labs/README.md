@@ -63,6 +63,7 @@ Você precisará de uma assinatura do Azure na qual tenha acesso administrativo.
 
 Link: https://learn.microsoft.com/pt-br/training/modules/explore-fundamentals-stream-processing/5-exercise-stream-analytics
 
+GITHUB: BAIXAR:  git clone https://github.com/MicrosoftLearning/DP-900T00A-Azure-Data-Fundamentals dp-900
 
 # Exercício: explorar o Streaming do Spark no Azure Synapse Analytics
 

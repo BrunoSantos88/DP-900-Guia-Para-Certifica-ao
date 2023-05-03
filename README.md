@@ -17,6 +17,7 @@ A versão em inglês deste exame foi atualizada em 4 de agosto de 2022. Examine 
 - Conceitos básicos de dados do Microsoft Azure: explorar dados não relacionais no Azure
 - Fundamentos de dados do Microsoft Azure: explorar a análise de dados no Azure
 
+# DP-900: Fundamentos de dados do Microsoft Azure
 
 Este exame é uma oportunidade para demonstrar o conhecimento dos principais conceitos de dados e serviços de dados relacionados do Microsoft Azure. Os candidatos a este exame devem ter familiaridade com o material de aprendizagem individual ou orientado por instrutor do Exame DP-900.
 

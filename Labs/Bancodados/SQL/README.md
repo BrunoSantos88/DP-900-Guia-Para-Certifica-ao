@@ -15,3 +15,6 @@ Um computador pode ter uma ou mais de uma instância de SQL Server instalada. Ca
 
 # Trabalhando com bancos de dados
 A maioria das pessoas que trabalham com bancos de dados usa a ferramenta SQL Server Management Studio. A ferramenta Management Studio tem uma interface gráfica do usuário para criar bancos de dados e os objetos nos bancos de dados. O Management Studio também tem um editor de consultas para interagir com bancos de dados escrevendo instruções Transact-SQL. O Management Studio pode ser instalado do SQL Server disco de instalação ou baixado do MSDN. Para obter mais informações sobre SQL Server Management Studio ferramenta, consulte SQL Server Management Studio (SSMS).
+
+# (Internet das Coisas)
+- SQL do Azure no Edge – um mecanismo SQL que é otimizado para cenários de IoT (Internet das Coisas) que precisam trabalhar com transmissão de dados de séries temporais.

@@ -26,3 +26,5 @@ Este exame destina-se a candidatos que estão iniciando no ambiente de dados em 
 Os candidatos devem estar familiarizados com os conceitos de dados relacionais e não relacionais e com diferentes tipos de cargas de trabalho de dados, como transacionais ou analíticas.
 
 Os Conceitos básicos sobre dados do Azure podem ser usados como capacitação para outras certificações baseadas em funções do Azure, como o Administrador de Banco de Dados do Azure ou o Engenheiro de Dados do Azure, mas não é um pré-requisito para nenhuma delas.
+
+Link: https://learn.microsoft.com/pt-br/certifications/exams/dp-900/

@@ -52,3 +52,13 @@ Criar uma conta do Cosmos DB
 Para usar o Cosmos DB, você deve provisionar uma conta do Cosmos DB em sua assinatura do Azure. Neste exercício, você provisionará uma conta do Cosmos DB que usa o Azure Cosmos DB para NoSQL.
 
 link: https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-03-cosmos-lab.html
+
+# Explorar o Azure Stream Analytics
+Neste exercício, você provisionará um trabalho do Azure Stream Analytics em sua assinatura do Azure e o usará para processar um fluxo de dados em tempo real.
+
+Este laboratório levará aproximadamente 15 minutos para ser concluído.
+
+Antes que você comece
+Você precisará de uma assinatura do Azure na qual tenha acesso administrativo.
+
+Link: https://learn.microsoft.com/pt-br/training/modules/explore-fundamentals-stream-processing/5-exercise-stream-analytics

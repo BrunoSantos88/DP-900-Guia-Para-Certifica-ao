@@ -91,3 +91,5 @@ Se o Microsoft Power BI Desktop ainda não estiver instalado em seu computador W
 
 Baixe o instalador do Power BI Desktop em https://aka.ms/power-bi-desktop .
 Quando o arquivo for baixado, abra-o e use o assistente de configuração para instalar o Power BI Desktop em seu computador. Esta instalação pode demorar alguns minutos.
+
+Dados Web Link:  https://github.com/MicrosoftLearning/DP-900T00A-Azure-Data-Fundamentals/raw/master/power-bi/customers.csv

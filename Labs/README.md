@@ -81,3 +81,7 @@ BAIXAR: https://raw.githubusercontent.com/MicrosoftLearning/DP-900T00A-Azure-Dat
 Neste exercício, você usará o Azure Synapse Data Explorer para analisar dados de série temporal.
 
 Link: https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Instructions/Labs/dp900-05b-stream-synapse-data-explorer.html
+
+
+# Explore os fundamentos da visualização de dados com o Power BI
+Neste exercício, você usará o Microsoft Power BI Desktop para criar um modelo de dados e um relatório contendo visualizações interativas de dados.

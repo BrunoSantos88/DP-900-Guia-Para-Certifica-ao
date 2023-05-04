@@ -85,3 +85,9 @@ Link: https://microsoftlearning.github.io/DP-900T00A-Azure-Data-Fundamentals/Ins
 
 # Explore os fundamentos da visualização de dados com o Power BI
 Neste exercício, você usará o Microsoft Power BI Desktop para criar um modelo de dados e um relatório contendo visualizações interativas de dados.
+
+nstalar o Power BI Desktop
+Se o Microsoft Power BI Desktop ainda não estiver instalado em seu computador Windows, você poderá baixá-lo e instalá-lo gratuitamente.
+
+Baixe o instalador do Power BI Desktop em https://aka.ms/power-bi-desktop .
+Quando o arquivo for baixado, abra-o e use o assistente de configuração para instalar o Power BI Desktop em seu computador. Esta instalação pode demorar alguns minutos.

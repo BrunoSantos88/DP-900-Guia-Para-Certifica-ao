@@ -39,3 +39,14 @@ Um armazenamento de dados de colunas ou de família de colunas organiza os dados
 - É possível pensar em um armazenamento de dados de família de colunas como contendo dados de tabela com linhas e colunas, mas as colunas são divididas em grupos conhecidos como famílias de colunas. Cada família de colunas contém um conjunto de colunas que estão logicamente relacionadas e geralmente são recuperadas ou manipuladas como uma unidade. Outros dados acessados separadamente podem ser armazenados em famílias de colunas separadas. Dentro de uma família de colunas, novas colunas podem ser adicionadas dinamicamente e as linhas podem ser esparsas (ou seja, uma linha não precisa ter um valor para cada coluna).
 
 - O diagrama a seguir mostra um exemplo com duas famílias de colunas, Identity e Contact Info. Os dados de uma única entidade têm a mesma chave de linha em cada família de colunas. Essa estrutura, em que as linhas de determinado objeto em uma família de colunas podem variar dinamicamente, é um benefício importante da abordagem de família de colunas, que torna essa forma de armazenamento de dados altamente adequada para armazenar dados com esquemas variados.
+
+Ao contrário de um repositório de valor/chave ou um banco de dados de documentos, a maioria dos bancos de dados de família de colunas armazenam dados fisicamente em ordem de chave, em vez de computar um hash. A chave de linha é considerada o índice primário e permite o acesso baseado em chave por meio de uma chave específica ou um intervalo de chaves. Algumas implementações permitem que você crie índices secundários em colunas específicas de uma família de colunas. Os índices secundários permitem recuperar dados por valor de colunas, em vez da chave de linha.
+
+No disco, todas as colunas de uma família de colunas são armazenadas juntas no mesmo arquivo, com um número específico de linhas em cada arquivo. Com conjuntos de dados grandes, esse método cria um benefício de desempenho, reduzindo a quantidade de dados que precisam ser lidos do disco quando apenas algumas colunas são consultadas juntas por vez.
+
+As operações de leitura e gravação para uma linha normalmente são atômicas em uma só família de colunas, embora algumas implementações forneçam atomicidade em toda a linha, abrangendo várias famílias de colunas.
+
+#  Serviço do Azure relevante:
+
+- Azure Cosmos DB for Apache Cassandra
+- HBase no HDInsight

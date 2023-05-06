@@ -71,3 +71,59 @@ Um armazenamento de valor/chave pode ser extremamente escalável, pois o armazen
 - Cache Redis do Azure
 - Armazenamento de Tabelas do Azure
 
+Armazenamentos de dados de gráficos
+Um armazenamento de dados de gráficos armazena dois tipos de informações: nós e bordas. Nós representam entidades e bordas especificam as relações entre essas entidades. Ambos os nós e as bordas podem ter propriedades que fornecem informações sobre esse nó ou borda, semelhante às colunas em uma tabela. As bordas também podem ter uma direção indicando a natureza do relacionamento.
+
+O objetivo de um armazenamento de dados de gráficos é permitir que um aplicativo execute com eficácia consultas que atravessam a rede de nós e bordas e analise as relações entre entidades. O diagrama a seguir mostra os dados de pessoal de uma organização estruturados como um gráfico. As entidades são funcionários e departamentos, e as bordas indicam os relacionamentos de relatórios e o departamento em que os funcionários trabalham. Nesse grafo, as setas nas bordas mostram a direção das relações.
+
+# Exemplo de dados em um armazenamento de dados de gráficos
+
+Essa estrutura simplifica a execução de consultas como "Encontrar todos os funcionários que são subordinados diretos ou indiretos de Marina" ou "Quem trabalha no mesmo departamento que Júlio?". Para grafos grandes com muitas entidades e relações, você pode executar análises complexas rapidamente. Muitos bancos de dados de gráficos fornecem uma linguagem de consulta que você pode utilizar para percorrer uma rede de relacionamentos de forma eficiente.
+
+# Serviço do Azure relevante:
+
+- API do Graph do Azure Cosmos DB
+- Armazenamentos de dados de série temporal
+
+Os dados de série temporal são um conjunto de valores organizados por tempo e um armazenamento de dados de série temporal é otimizado para esse tipo de dados. Os armazenamentos de dados de série temporal precisam dar suporte a um número muito alto de gravações, pois geralmente coletam grandes quantidades de dados em tempo real de uma grande variedade de fontes. Os armazenamentos de dados de série temporal são otimizados para armazenar dados telemétricos. Os cenários incluem sensores de IoT ou contadores de sistemas/aplicativos. As atualizações são raras e as exclusões geralmente são feitas como operações em massa.
+
+# Exemplo de dados de série temporal
+
+Embora os registros gravados em um banco de dados de série temporal sejam geralmente pequenos, muitas vezes, há um grande número de registros e o tamanho total dos dados pode aumentar rapidamente. Os armazenamentos de dados de série temporal também manipulam dados fora de ordem e de chegada tardia, a indexação automática de pontos de dados e otimizações de consultas descritas em termos de janelas de tempo. Esse último recurso permite a execução de consultas em milhões de pontos de dados e em vários fluxos de dados com rapidez, para dar suporte a visualizações de série temporal, que é uma maneira comum pela qual os dados de séries temporal são consumidos.
+
+Para obter mais informações, consulte Soluções de série temporal
+
+# Serviços do Azure relevantes:
+
+- Azure Time Series Insights
+- OpenTSDB com HBase no HDInsight
+- Armazenamentos de dados de objetos
+- 
+Os armazenamentos de dados de objetos são otimizados para armazenar e recuperar grandes objetos binários ou blobs como imagens, arquivos de texto, fluxos de áudio e vídeo, grandes documentos e objetos de dados de aplicativos e imagens de disco de máquina virtual. Um objeto consiste nos dados armazenados, em alguns metadados e uma ID exclusiva para acessar o objeto. Os armazenamentos de objetos foram projetados para dar suporte a arquivos que são individualmente muito grandes, além de fornecer grandes quantidades de armazenamento total para gerenciar todos os arquivos.
+
+# Exemplo de dados de objeto
+
+Alguns armazenamentos de dados de objetos replicam determinado blob em vários nós de servidor, o que permite rápidas leituras paralelas. Esse processo, por sua vez, habilita a consulta de expansão dos dados contidos em arquivos grandes, pois vários processos, normalmente em execução em diferentes servidores, podem consultar o arquivo de dados grande simultaneamente.
+
+Um caso especial de armazenamentos de dados de objetos é o compartilhamento de arquivos de rede. O uso de compartilhamentos de arquivos permite que os arquivos sejam acessados em uma rede usando protocolos de rede padrão como o protocolo SMB. Considerando os mecanismos apropriados de segurança e controle de acesso simultâneo, compartilhar dados dessa forma pode permitir que os serviços distribuídos forneçam acesso a dados altamente escalonáveis para operações básicas de baixo nível, como solicitações de leitura e gravação simples.
+
+# Serviços do Azure relevantes:
+
+- Armazenamento de Blobs do Azure
+- Repositório Azure Data Lake
+- Armazenamento de Arquivos do Azure
+- Armazenamentos de dados de índice externo
+
+Os armazenamentos de dados de índice externo fornecem a capacidade de pesquisar informações mantidas em outros armazenamentos de dados e serviços. Um índice externo atua como um índice secundário para qualquer armazenamento de dados e pode ser usado para indexar grandes volumes de dados e fornecer acesso quase em tempo real a esses índices.
+
+Por exemplo, talvez você tenha arquivos de texto armazenados em um sistema de arquivos. Encontrar um arquivo por seu arquivo de caminho é rápido, mas pesquisar com base no conteúdo do arquivo exige um exame de todos os arquivos, o que é lento. Um índice externo permite criar índices de pesquisa secundária e, em seguida, localizar rapidamente o caminho para os arquivos que correspondem aos critérios. Outro aplicativo de exemplo de um índice externo são armazenamentos de chave/valor que somente indexam pela chave. Você pode criar um índice secundário com base nos valores dos dados e pesquisar rapidamente a chave que identifica exclusivamente cada item correspondente.
+
+# Exemplo de dados de pesquisa
+
+Os índices são criados pela execução de um processo de indexação. Isso pode ser feito usando um modelo de pull, disparado pelo armazenamento de dados ou usando um modelo de push, iniciado pelo código do aplicativo. Os índices podem ser multidimensionais e dar suporte a pesquisas de texto livre em grandes volumes de dados de texto.
+
+Os armazenamentos de dados de índice externo costumam ser usados para dar suporte às pesquisas de texto completo e baseadas na Web. Nesses casos, a pesquisa pode ser exata ou difusa. Uma pesquisa difusa localiza documentos que correspondem um conjunto de termos e calcula a forma como eles correspondem. Alguns índices externos também dão suporte à análise linguística que pode retornar correspondências com base em sinônimos, expansões de gênero (por exemplo, correspondência de "cachorros" com "animais de estimação") e lematização (por exemplo, a pesquisa de "correr" também corresponde a "correu" e "correndo").
+
+# Serviço do Azure relevante:
+
+- Azure Search

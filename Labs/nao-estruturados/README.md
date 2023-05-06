@@ -24,3 +24,12 @@ As seções a seguir descrevem as principais categorias de banco de dados não r
 Um armazenamento de dados de documento gerencia um conjunto de campos de cadeia de caracteres nomeados e valores de dados de objeto em uma entidade conhecida como documento. Normalmente, esses repositórios de dados armazenam dados na forma de documentos JSON. Cada valor de campo pode ser um item escalar, como um número ou um elemento composto, como uma lista ou uma coleção de pai-filho. Os dados nos campos de um documento podem ser codificados de várias maneiras, incluindo XML, YAML, JSON, BSON ou, até mesmo, armazenados como texto sem formatação. Os campos nos documentos são expostos ao sistema de gerenciamento de armazenamento, permitindo que um aplicativo consulte e filtre dados utilizando os valores nesses campos.
 
 Normalmente, um documento contém todos os dados de uma entidade. Quais itens constituem uma entidade são específicos do aplicativo. Por exemplo, uma entidade pode conter os detalhes de um cliente, um pedido ou uma combinação de ambos. Um único documento pode conter informações que serão distribuídas em várias tabelas relacionais em um RDBMS. Um repositório de documentos não requer que todos os documentos tenham a mesma estrutura. Essa abordagem em forma livre oferece grande flexibilidade. Por exemplo, os aplicativos podem armazenar dados diferentes em documentos, em resposta a uma alteração nos requisitos de negócios.
+
+
+O aplicativo pode recuperar documentos utilizando a chave de documento. A chave é um identificador exclusivo do documento, que geralmente tem um hash, para ajudar a distribuir os dados de maneira uniforme. Alguns bancos de dados de documentos criam a chave do documento automaticamente. Outros permitem que você especifique um atributo do documento a ser usado como chave. O aplicativo também pode consultar documentos com base no valor de um ou mais campos. Alguns bancos de dados de documentos dão suporte à indexação para facilitar a pesquisa rápida de documentos com base em um ou mais campos indexados.
+
+Muitos bancos de dados de documentos fornecem suporte a atualizações in loco, permitindo que um aplicativo modifique os valores de campos específicos em um documento sem regravar o documento inteiro. As operações de leitura e gravação em vários campos em um só documento normalmente são atômicas.
+
+Serviço do Azure relevante:
+
+# Azure Cosmos DB

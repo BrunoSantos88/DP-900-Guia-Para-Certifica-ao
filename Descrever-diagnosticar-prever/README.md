@@ -1,3 +1,6 @@
+</p>
+<img src="https://user-images.githubusercontent.com/91704169/236587913-3f4b1718-88a8-481c-9ce5-38598d028ff6.jpg" width="1000px" align="centter" alt="planos">
+
 De um modo geral, a análise de dados vem em quatro tipos.
 
 Descritivo, para responder à pergunta: O que está acontecendo?

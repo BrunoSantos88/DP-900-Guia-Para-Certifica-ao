@@ -1,14 +1,45 @@
-# DP-900-Guia-Para-Certificação
--Curso ministrado pelo SENAI,usando conceitos de Learning path.
+De um modo geral, a análise de dados vem em quatro tipos (Figura 1):
 
-Link roteiro DP-900: https://learn.microsoft.com/pt-br/training/browse/?terms=DP-900&resource_type=learning%20path&subjects=data-ai
+Descritivo, para responder à pergunta: O que está acontecendo?
+Diagnóstico, para responder à pergunta: Por que está acontecendo?
+Preditivo, para responder à pergunta: O que vai acontecer?
+Prescritivo, para responder à pergunta: Que ações devemos tomar?
 
+# Descritivo
 
-# Qual o significado de OLTP e OLAP?
-Apesar de apresentarem nomes parecidos, seus conceitos e aplicações são bem diferentes. Portanto, entender a função de cada um é fundamental para utilizá-los corretamente.
+- O que está acontecendo?
+- Qual é o rendimento e a utilização desta máquina?
+- Existem anomalias que requerem atenção imediata?
+- Quanta energia esta máquina está consumindo?
+- Quantas peças estamos produzindo com esta ferramenta?
+- Como os clientes estão usando nossos produtos?
+- Onde estão meus bens?
 
-OLTP ou Online Transaction Processing (Processamento de Transações Online, em português) serve para designar os sistemas operacionais com dados transacionais. 
+# Diagnóstico
 
-Além de fornecerem assistência para as atividades na visão operacional, o OLTP processa dados dos diversos sistemas com informações variadas da companhia.
+- Por que algo está acontecendo?
 
-Por outro lado, o OLAP ou Online Analytical Processing (Processamento Analítico Online), é uma habilidade para executar dentro do Data Warehouse e realizar análises dos grandes volumes de dados. 
+- Por que o OEE desta máquina é tão baixo?
+- Por que esta máquina está produzindo mais peças defeituosas do que as outras?
+- Por que esta máquina está consumindo tanta energia?
+- Por que estamos produzindo tão poucas peças com esta ferramenta?
+- Por que estamos recebendo tantas devoluções deste produto?
+- Por que estamos recebendo tantas devoluções de produtos de nossos clientes europeus?
+
+# Preditivo
+
+- O que vai acontecer?
+
+- Qual é a probabilidade desta máquina falhar nas próximas 24 horas?
+- Qual é a vida útil restante esperada desta ferramenta?
+- Quando devo planejar o serviço para esta máquina?
+- Qual será a demanda por este produto ou recurso?
+
+# Prescritivo
+
+- Que ações devo tomar?
+
+- Esta máquina tem 90% de probabilidade de falhar nas próximas 24 horas. O que devo fazer para prevenir?
+- O OEE desta máquina é baixo. O que posso fazer para melhorá-lo?
+- Esta máquina está produzindo muitas peças defeituosas. O que devo fazer para evitar isso?
+- Este projeto está causando muitos problemas de fabricação. Como posso melhorar o design para reduzi-los?

@@ -50,3 +50,24 @@ As operações de leitura e gravação para uma linha normalmente são atômicas
 
 - Azure Cosmos DB for Apache Cassandra
 - HBase no HDInsight
+
+# Armazenamentos de dados de chave/valor
+
+Um armazenamento de valor/chave é essencialmente uma tabela de hash grande. Você associa cada valor de dados a uma chave exclusiva e o armazenamento de valor/chave usa essa chave para armazenar os dados, utilizando uma função de hash apropriada. A função de hash é selecionada para fornecer uma distribuição uniforme de chaves de hash em todo o armazenamento de dados.
+
+A maioria dos armazenamentos de valor/chave fornecem suporte apenas às operações de exclusão, inserção e consulta simples. Para modificar um valor (parcial ou completamente), um aplicativo deverá substituir os dados existentes para todo o valor. Na maioria das implementações, a leitura ou gravação de um único valor é uma operação atômica. Se o valor for grande, a gravação poderá demorar algum tempo.
+
+Um aplicativo pode armazenar dados arbitrários como um conjunto de valores, embora alguns armazenamentos de valor/chave imponham limites ao tamanho máximo de valores. Os valores armazenados são opacos para o software do sistema de armazenamento. Quaisquer informações de esquema deverão ser fornecidas e interpretadas pelo aplicativo. Essencialmente, os valores são blobs e o armazenamento de valor/chave simplesmente recupera ou armazena o valor por chave.
+
+Armazenamentos de chave/valor são altamente otimizados para aplicativos que realizam pesquisas simples usando o valor da chave ou por um intervalo de chaves, mas são menos adequados para sistemas que precisam consultar dados em tabelas diferentes de chaves/valores, como a união de dados em várias tabelas.
+
+Os armazenamentos de chave/valor também não são otimizados para cenários em que a consulta ou a filtragem por valores não chave é importante, em vez de realizar pesquisas baseadas somente em chaves. Por exemplo, com um banco de dados relacional, você pode encontrar um registro usando uma cláusula WHERE para filtrar as colunas não chave, mas armazenamentos de chave/valores geralmente não têm esse tipo de funcionalidade de pesquisa de valores ou se têm, é preciso fazer um exame lento de todos os valores.
+
+Um armazenamento de valor/chave pode ser extremamente escalável, pois o armazenamento de dados pode facilmente distribuir dados em vários nós em computadores separadas.
+
+# Serviços do Azure relevantes:
+
+- Azure Cosmos DB for Table
+- Cache Redis do Azure
+- Armazenamento de Tabelas do Azure
+

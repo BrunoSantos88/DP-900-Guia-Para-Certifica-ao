@@ -46,7 +46,7 @@ No disco, todas as colunas de uma família de colunas são armazenadas juntas no
 
 As operações de leitura e gravação para uma linha normalmente são atômicas em uma só família de colunas, embora algumas implementações forneçam atomicidade em toda a linha, abrangendo várias famílias de colunas.
 
-#  Serviço do Azure relevante:
+# Serviço do Azure relevante:
 
 - Azure Cosmos DB for Apache Cassandra
 - HBase no HDInsight

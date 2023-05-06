@@ -1,4 +1,4 @@
-De um modo geral, a análise de dados vem em quatro tipos (Figura 1):
+De um modo geral, a análise de dados vem em quatro tipos.
 
 Descritivo, para responder à pergunta: O que está acontecendo?
 Diagnóstico, para responder à pergunta: Por que está acontecendo?

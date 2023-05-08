@@ -104,5 +104,7 @@ Dados web Link:  https://github.com/MicrosoftLearning/DP-900T00A-Azure-Data-Fund
 - Order
 Dados Web Link: https://github.com/MicrosoftLearning/DP-900T00A-Azure-Data-Fundamentals/raw/master/power-bi/orders.csv
 
+(resultado Powerbia)
+
 </p>
 <img src="https://user-images.githubusercontent.com/91704169/236625642-558a8c8e-6f67-4af5-9750-8e9f4dc899f2.png" width="1000px" align="centter" alt="planos">

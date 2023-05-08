@@ -1,5 +1,8 @@
 # LABS 
 
+- Github
+- Labs: https://github.com/MicrosoftLearning/DP-900T00A-Azure-Data-Fundamentals/tree/master/Instructions/Labs
+
 # Exercício: explorar serviços de banco de dados relacional do Azure
 
 Link: https://learn.microsoft.com/pt-br/training/modules/explore-provision-deploy-relational-database-offerings-azure/4-exercise-provision-relational-azure-data-services?pivots=azuresql

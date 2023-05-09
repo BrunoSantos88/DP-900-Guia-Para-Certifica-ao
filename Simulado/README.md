@@ -192,6 +192,7 @@ ELT: ...Esta abordagem ignora a etapa de cópia de dados presente no ETL, que po
 - Referência: https://docs.microsoft.com/pt-br/azure/architecture/data-guide/relational-data/etl </p>
 
 
+# Pergunta 17
 
 Escolha a opção correta para completar a frase: ___________________ é uma tabela virtual que contém conteúdo definido por uma consulta.
 

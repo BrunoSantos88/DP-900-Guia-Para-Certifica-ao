@@ -190,3 +190,17 @@ ETL: ...a transformação de dados que ocorre geralmente envolve várias operaç
 ELT: ...Esta abordagem ignora a etapa de cópia de dados presente no ETL, que pode ser uma operação demorada para grandes conjuntos de dados... Load e Trasformation estão no mesmo destino </p>
 
 - Referência: https://docs.microsoft.com/pt-br/azure/architecture/data-guide/relational-data/etl </p>
+
+
+
+Escolha a opção correta para completar a frase: ___________________ é uma tabela virtual que contém conteúdo definido por uma consulta.
+
+1- Um procedimento armazenado </p>
+2- Uma view (correto) </p>
+3- Um heap </p>
+4- Um Índice </p>
+ 
+Explicação: </p>
+Resposta correta: Uma View </p>
+é uma tabela que está sendo criada com base em uma consulta do usuário </p>
+Referência: https://docs.microsoft.com/pt-br/sql/relational-databases/views/views </p>

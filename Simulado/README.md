@@ -27,7 +27,7 @@ Link Simulado Microsoft: https://learn.microsoft.com/pt-br/certifications/exams/
 
 - Link-Final-4:https://docs.google.com/forms/d/e/1FAIpQLSeonfn8bP1vXWyNB4jbomkYUk1BHsb-94Il_rLVFg4e5Cb9hw/viewform
 
-# Perguntas e que tenho Duvidas;
+# Perguntas que tenho duvidas ainda. Simulados DP-900
 
 # Pergunta 1
 
@@ -160,3 +160,72 @@ Qual serviço você usaria para capturar continuamente dados de um Hub IoT, agre
 Azure Cosmos DB </P>
 Stream Analytics do Azure (correta) </P>
 Armazenamento do Azure </P>
+
+# Pergunta 15
+
+
+Escolha a opção correta para completar a frase: Um processo de extração, carregamento e transformação (ELT) requer ___________________
+
+1- um armazenamento de dados de destino poderoso o suficiente para transformar dados. (correto) </p>
+2- um pipeline de dados que inclui um mecanismo de transformação. </p>
+3- dados que são totalmente processados ​​antes de serem carregados no armazenamento de dados de destino. </p>
+4- um motor de transformação separado. </p>
+
+Explicação: </p>
+Com o ELT, o armazenamento de dados usado para realizar a transformação é o mesmo armazenamento de dados em que os dados são consumidos. </p>
+Link: https://docs.microsoft.com/pt-br/azure/architecture/data-guide/relational-data/etl </p>
+
+
+# Pergunta 16
+
+Qual das alternativas não é verdadeira?
+
+1- Extrair, carregar e transformar (ELT) minimiza o tempo necessário para copiar grandes volumes de dados para os sistemas de destino. (correto) </p>
+2- Extrair, transformar e carregar (ETL) pode reduzir o tempo de transferência de dados para sistemas de destino. </p>
+3- Extrair, carregar e transformar (ELT) transforma dados usando um recurso de computação independente do sistema de origem e do sistema de destino. </p>
+
+Explicação: </p>
+Resposta falsa: Extrair, carregar e transformar (ELT) transforma dados usando um recurso de computação independente do sistema de origem e do sistema de destino. </p>
+ETL: ...a transformação de dados que ocorre geralmente envolve várias operações, como filtragem... </p>
+ELT: ...Esta abordagem ignora a etapa de cópia de dados presente no ETL, que pode ser uma operação demorada para grandes conjuntos de dados... Load e Trasformation estão no mesmo destino </p>
+
+- Referência: https://docs.microsoft.com/pt-br/azure/architecture/data-guide/relational-data/etl </p>
+
+
+# Pergunta 17
+
+Escolha a opção correta para completar a frase: ___________________ é uma tabela virtual que contém conteúdo definido por uma consulta.
+
+1- Um procedimento armazenado </p>
+2- Uma view (correto) </p>
+3- Um heap </p>
+4- Um Índice </p>
+ 
+Explicação: </p>
+Resposta correta: Uma View </p>
+é uma tabela que está sendo criada com base em uma consulta do usuário </p>
+Referência: https://docs.microsoft.com/pt-br/sql/relational-databases/views/views </p>
+
+# Pergunta 18
+
+Escolha a opção correta para completar a frase: A transcrição de arquivos de áudio é um exemplo de análise ___________________
+
+1- preditiva </p>
+2- cognitiva </p>
+3- prescritiva </p>
+4- descritiva (Correta) </p>
+
+
+# Pergunta 19
+
+Escolha a opção correta para completar a frase: ___________________ classifica fisicamente os dados em uma tabela com base nos valores em uma coluna especificada.
+
+1- Um índice clusterizado (Clustered Index)
+2- Um índice não clusterizado (Non-Clustered Index)
+3- Um procedimento armazenado (Procedure) 
+4- Uma vista (View)
+
+Explicação:
+Resposta Correta: Índices clusterizados.
+
+Referência: https://docs.microsoft.com/pt-br/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver15

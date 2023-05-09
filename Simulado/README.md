@@ -210,10 +210,10 @@ Referência: https://docs.microsoft.com/pt-br/sql/relational-databases/views/vie
 
 Escolha a opção correta para completar a frase: A transcrição de arquivos de áudio é um exemplo de análise ___________________
 
-1- preditiva
-2- cognitiva
-3- prescritiva
-4- descritiva (Correta)
+1- preditiva </p>
+2- cognitiva </p>
+3- prescritiva </p>
+4- descritiva (Correta) </p>
 
 
 # Pergunta 19

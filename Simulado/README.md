@@ -27,9 +27,7 @@ Link Simulado Microsoft: https://learn.microsoft.com/pt-br/certifications/exams/
 
 - Link-Final-4:https://docs.google.com/forms/d/e/1FAIpQLSeonfn8bP1vXWyNB4jbomkYUk1BHsb-94Il_rLVFg4e5Cb9hw/viewform
 
-# Oerguntas que tenho duvidas ainda. Simulados DP-900
-
-# Simulados 1 2 3 4 e FInal 1 2 3 4
+# Perguntas que tenho duvidas ainda. Simulados DP-900
 
 # Pergunta 1
 
@@ -176,3 +174,19 @@ Escolha a opção correta para completar a frase: Um processo de extração, car
 Explicação: </p>
 Com o ELT, o armazenamento de dados usado para realizar a transformação é o mesmo armazenamento de dados em que os dados são consumidos. </p>
 Link: https://docs.microsoft.com/pt-br/azure/architecture/data-guide/relational-data/etl </p>
+
+
+# Pergunta 16
+
+Qual das alternativas não é verdadeira?
+
+1- Extrair, carregar e transformar (ELT) minimiza o tempo necessário para copiar grandes volumes de dados para os sistemas de destino. (correto) </p>
+2- Extrair, transformar e carregar (ETL) pode reduzir o tempo de transferência de dados para sistemas de destino. </p>
+3- Extrair, carregar e transformar (ELT) transforma dados usando um recurso de computação independente do sistema de origem e do sistema de destino. </p>
+
+Explicação: </p>
+Resposta falsa: Extrair, carregar e transformar (ELT) transforma dados usando um recurso de computação independente do sistema de origem e do sistema de destino. </p>
+ETL: ...a transformação de dados que ocorre geralmente envolve várias operações, como filtragem... </p>
+ELT: ...Esta abordagem ignora a etapa de cópia de dados presente no ETL, que pode ser uma operação demorada para grandes conjuntos de dados... Load e Trasformation estão no mesmo destino </p>
+
+- Referência: https://docs.microsoft.com/pt-br/azure/architecture/data-guide/relational-data/etl </p>

@@ -27,7 +27,9 @@ Link Simulado Microsoft: https://learn.microsoft.com/pt-br/certifications/exams/
 
 - Link-Final-4:https://docs.google.com/forms/d/e/1FAIpQLSeonfn8bP1vXWyNB4jbomkYUk1BHsb-94Il_rLVFg4e5Cb9hw/viewform
 
-# Perguntas e que tenho Duvidas;
+# Oerguntas que tenho duvidas ainda. Simulados DP-900
+
+# Simulados 1 2 3 4 e FInal 1 2 3 4
 
 # Pergunta 1
 
@@ -160,3 +162,17 @@ Qual serviço você usaria para capturar continuamente dados de um Hub IoT, agre
 Azure Cosmos DB </P>
 Stream Analytics do Azure (correta) </P>
 Armazenamento do Azure </P>
+
+# Pergunta 15
+
+
+Escolha a opção correta para completar a frase: Um processo de extração, carregamento e transformação (ELT) requer ___________________
+
+um armazenamento de dados de destino poderoso o suficiente para transformar dados. (correto) </p>
+um pipeline de dados que inclui um mecanismo de transformação. </p>
+dados que são totalmente processados ​​antes de serem carregados no armazenamento de dados de destino. </p>
+um motor de transformação separado. </p>
+
+Explicação: </p>
+Com o ELT, o armazenamento de dados usado para realizar a transformação é o mesmo armazenamento de dados em que os dados são consumidos. </p>
+Link: https://docs.microsoft.com/pt-br/azure/architecture/data-guide/relational-data/etl </p>

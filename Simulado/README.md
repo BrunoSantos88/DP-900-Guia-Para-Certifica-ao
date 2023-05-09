@@ -9,6 +9,24 @@ Link Simulado Microsoft: https://learn.microsoft.com/pt-br/certifications/exams/
 - Simulados Senai: 1°80% 2°80 3°88% </p>
 - Provas 680 pontos minha ultima tentativa. </p>
 
+# Simulados 
+
+- Link-1:https://docs.google.com/forms/d/e/1FAIpQLSdKS6S3N6C78REvkfpNk0Rz9ISDMA7QrWeb8H2K_jkTKxRevA/viewform
+
+- Link-2:https://docs.google.com/forms/d/e/1FAIpQLSccYHJJgwSJZNQIcOyNhBHPVvGMHQ-tqEehXWt2QWMWJPkigg/viewform
+
+- Link-3:https://docs.google.com/forms/d/e/1FAIpQLSfMbba2XwHo85Y_SShwlYcw0-dRkZcLRkEpkOHJ-QvKg6OOQg/viewform
+
+- Link-4: https://docs.google.com/forms/d/e/1FAIpQLSc718K8n0dQFCF-byanO_6kYJSblhYcmesORJRjgM0RO8vTRQ/viewform
+
+- Link-Final-1:https://docs.google.com/forms/d/e/1FAIpQLSdLF0A_YXuehVBW2-NJdlBNo3LmPc5QRbvYdZLQU7K8-IaOIA/viewform
+
+- Link-Final-2:https://docs.google.com/forms/d/e/1FAIpQLScLb7bUfBv93NWNIxcds82oJIlqQixY8KBNpqlUPy2jK1fYIg/viewform
+
+- Link-Final-3:https://docs.google.com/forms/d/e/1FAIpQLSdDVy_XODuXCNoPvsq_nMP6NuX2hr1TuC3RrFE777PDfOxCyQ/viewform
+
+- Link-Final-4:https://docs.google.com/forms/d/e/1FAIpQLSeonfn8bP1vXWyNB4jbomkYUk1BHsb-94Il_rLVFg4e5Cb9hw/viewform
+
 # Perguntas e que tenho Duvidas;
 
 # Pergunta 1

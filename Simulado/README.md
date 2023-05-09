@@ -205,3 +205,27 @@ Explicação: </p>
 Resposta correta: Uma View </p>
 é uma tabela que está sendo criada com base em uma consulta do usuário </p>
 Referência: https://docs.microsoft.com/pt-br/sql/relational-databases/views/views </p>
+
+# Pergunta 18
+
+Escolha a opção correta para completar a frase: A transcrição de arquivos de áudio é um exemplo de análise ___________________
+
+1- preditiva
+2- cognitiva
+3- prescritiva
+4- descritiva (Correta)
+
+
+# Pergunta 19
+
+Escolha a opção correta para completar a frase: ___________________ classifica fisicamente os dados em uma tabela com base nos valores em uma coluna especificada.
+
+1- Um índice clusterizado (Clustered Index)
+2- Um índice não clusterizado (Non-Clustered Index)
+3- Um procedimento armazenado (Procedure) 
+4- Uma vista (View)
+
+Explicação:
+Resposta Correta: Índices clusterizados.
+
+Referência: https://docs.microsoft.com/pt-br/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver15

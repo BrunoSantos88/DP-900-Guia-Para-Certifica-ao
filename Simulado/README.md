@@ -168,10 +168,10 @@ Armazenamento do Azure </P>
 
 Escolha a opção correta para completar a frase: Um processo de extração, carregamento e transformação (ELT) requer ___________________
 
-um armazenamento de dados de destino poderoso o suficiente para transformar dados. (correto) </p>
-um pipeline de dados que inclui um mecanismo de transformação. </p>
-dados que são totalmente processados ​​antes de serem carregados no armazenamento de dados de destino. </p>
-um motor de transformação separado. </p>
+1- um armazenamento de dados de destino poderoso o suficiente para transformar dados. (correto) </p>
+2- um pipeline de dados que inclui um mecanismo de transformação. </p>
+3- dados que são totalmente processados ​​antes de serem carregados no armazenamento de dados de destino. </p>
+4- um motor de transformação separado. </p>
 
 Explicação: </p>
 Com o ELT, o armazenamento de dados usado para realizar a transformação é o mesmo armazenamento de dados em que os dados são consumidos. </p>

@@ -1,5 +1,3 @@
-# DATA FACTOR
-
 # O que é o Azure Data Factory?
 
 - APLICA-SE A: Azure Data Factory  Azure Synapse Analytics

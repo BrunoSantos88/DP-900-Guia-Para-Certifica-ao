@@ -8,3 +8,8 @@ Azure HDInsight logo O Azure HDInsight é um serviço do Azure que fornece clust
 - Apache Storm – um sistema de código aberto para processamento de dados em tempo real por meio de uma topologia de spouts e bolts.
 Os engenheiros de dados podem usar o Azure HDInsight para dar suporte a cargas de trabalho de análise de Big Data que dependem de várias tecnologias de código aberto.
 
+
+# SERVIÇOS
+
+Link:https://learn.microsoft.com/pt-br/training/modules/examine-components-of-modern-data-warehouse/4-analytical-data-stores
+

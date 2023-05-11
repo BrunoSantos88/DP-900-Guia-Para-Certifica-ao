@@ -1,100 +1,67 @@
-# Indentificar serviços de dados
+# Descrever serviços do Azure para bancos de dados de código aberto
 
-O Microsoft Azure é uma plataforma de nuvem que potencializa os aplicativos e a infraestrutura de TI de algumas das maiores organizações do mundo. Ele inclui muitos serviços para dar suporte a soluções de nuvem, incluindo cargas de trabalho de dados transacionais e analíticas.
+Além dos serviços de SQL do Azure, há serviços de dados do Azure disponíveis para outros sistemas de bancos de dados relacionais populares, incluindo MySQL, MariaDB e PostgreSQL. O propósito desses serviços é permitir que as organizações que os usam em aplicativos locais migrem para o Azure rapidamente, sem fazer alterações significativas em seus aplicativos.
 
-Alguns dos serviços de nuvem mais usados para dados estão descritos abaixo.
+O que são MySQL, MariaDB e PostgreSQL?
+MySQL, MariaDB e PostgreSQL são sistemas de gerenciamento de banco de dados relacionais personalizados para diferentes especializações.
 
+O MySQL começou como um sistema de gerenciamento de banco de dados de software livre simples de usar. É o principal banco de dados relacional de código aberto para os aplicativos da pilha LAMP (Linux, Apache, MySQL e PHP). Ele está disponível em várias edições; Community, Standard e Enterprise. A Community Edition está disponível gratuitamente e tem sido historicamente popular como um sistema de gerenciamento de banco de dados para aplicativos Web, em execução no Linux. Também há versões disponíveis para Windows. A Edição Standard tem um desempenho mais alto e usa uma tecnologia diferente para armazenar dados. A Edição Enterprise fornece um conjunto abrangente de ferramentas e recursos, incluindo segurança, disponibilidade e escalabilidade aprimoradas. As edições Standard e Enterprise são as versões usadas com mais frequência pelas organizações comerciais, embora essas versões do software não sejam gratuitas.
 
-Este tópico aborda apenas alguns dos serviços de dados mais usados em soluções analíticas e transacionais modernas. Também há serviços adicionais disponíveis.
+O MariaDB é um sistema de gerenciamento de banco de dados mais recente, criado pelos desenvolvedores originais do MySQL. Desde então, o mecanismo de banco de dados foi reescrito e otimizado para aprimorar o desempenho. O MariaDB tem compatibilidade com o Oracle Database (outro sistema de gerenciamento de banco de dados comercial popular). Um recurso notável do MariaDB é o suporte interno para dados temporais. Uma tabela pode conter várias versões de dados, permitindo que um aplicativo consulte os dados como eles apareciam em algum momento no passado.
 
-# SQL do Azure
-Azure SQL logoSQL do Azure é o nome coletivo de uma família de soluções de banco de dados relacional com base no mecanismo de banco de dados do Microsoft SQL Server. Os serviços específicos de SQL do Azure incluem:
+O PostgreSQL é um banco de dados de objetos híbrido e relacional. É possível armazenar dados em tabelas relacionais, mas um banco de dados PostgreSQL também permite que você armazene tipos de dados personalizados, com propriedades não relacionais próprias. O sistema de gerenciamento de banco de dados é extensível. Você pode adicionar módulos de código ao banco de dados, que pode ser executado por consultas. Outro recurso importante é a capacidade de armazenar e manipular dados geométricos, como linhas, círculos e polígonos.
 
-Banco de Dados SQL do Azure – um banco de dados de PaaS (plataforma como serviço) totalmente gerenciado hospedado no Azure
-Instância Gerenciada de SQL do Azure – uma instância hospedada do SQL Server com manutenção automatizada, que permite uma configuração mais flexível do que o BD de SQL do Azure, mas com mais responsabilidade administrativa para o proprietário.
-VM de SQL do Azure – uma máquina virtual com uma instalação do SQL Server, permitindo a máxima capacidade de configuração com total responsabilidade de gerenciamento.
-Os administradores de banco de dados normalmente provisionam e gerenciam os sistemas de banco de dados SQL do Azure para dar suporte a aplicativos de LOB (linha de negócios) que precisam armazenar dados transacionais.
+O PostgreSQL tem uma linguagem de consulta própria chamada pgsql. É uma variante da linguagem de consulta relacional padrão, SQL, com recursos que permitem escrever procedimentos armazenados executados dentro do banco de dados.
 
-Os engenheiros de dados podem usar os sistemas de banco de dados SQL do Azure como fontes para pipelines de dados que executam operações de ETL (extração, transformação e carregamento) para ingerir os dados transacionais em um sistema analítico.
+Banco de Dados do Azure para MySQL
+Logotipo do Banco de Dados do Azure para MySQLO Banco de Dados do Azure para MySQL é uma implementação do MySQL na nuvem do Azure, baseada na Community Edition do MySQL.
 
-Os analistas de dados podem consultar os bancos de dados SQL do Azure diretamente para criar relatórios, no entanto, em grandes organizações, os dados geralmente são combinados com os dados de outras fontes em um armazenamento de dados analíticos para dar suporte às análises empresariais.
+O serviço do Banco de Dados do Azure para MySQL inclui alta disponibilidade sem custo adicional e escalabilidade de acordo com a necessidade. Você paga apenas pelo que usa. É possível fazer backups automáticos com restauração pontual.
 
-# Banco de dados do Azure para bancos dados relacionais de código aberto
-Azure Database for MariaDB, MySQL, and PostreSQL logos O Azure inclui serviços gerenciados para sistemas de banco de dados relacionais populares de código aberto, incluindo:
+O servidor fornece segurança de conexão para impor regras de firewall e, opcionalmente, exigir conexões SSL. Muitos parâmetros de servidor permitem definir as configurações do servidor, como modos de bloqueio, número máximo de conexões e tempos limite.
 
-- Banco de Dados do Azure para MySQL – um sistema de gerenciamento de banco de dados de código aberto fácil de usar que é comumente usado em aplicativos da pilha LAMP (Linux, Apache, MySQL e PHP).
+O Banco de Dados do Azure para MySQL fornece um sistema de banco de dados global que pode ser dimensionado para grandes bancos de dados sem a necessidade de gerenciar hardware, componentes de rede, servidores virtuais, patches de software e outros componentes subjacentes.
 
-- Banco de Dados do Azure para MariaDB – um sistema de gerenciamento de banco de dados mais recente, criado pelos desenvolvedores originais do MySQL. Desde então, o mecanismo de banco de dados foi reescrito e otimizado para aprimorar o desempenho. O MariaDB tem compatibilidade com o Oracle Database (outro sistema de gerenciamento de banco de dados comercial popular).
+Determinadas operações não estão disponíveis no Banco de Dados do Azure para MySQL. Essas funções se encarregam principalmente da segurança e da administração. O Azure gerencia esses aspectos do próprio servidor de banco de dados.
 
-- Banco de dados do Azure para PostgreSQL – um banco de dados híbrido relacional-objeto. É possível armazenar dados em tabelas relacionais, mas um banco de dados PostgreSQL também permite que você armazene tipos de dados personalizados, com propriedades não relacionais próprias.
+Benefícios do Banco de Dados do Azure para MySQL
+Os seguintes recursos estão disponíveis no Banco de Dados do Azure para MySQL:
 
-Assim como acontece com os sistemas de banco de dados SQL do Azure, os bancos de dados relacionais de código aberto são gerenciados por administradores de banco de dados para dar suporte a aplicativos transacionais e fornecem uma fonte de dados para engenheiros de dados, criando pipelines para soluções analíticas e analistas de dados que criam relatórios.
+Recursos internos de alta disponibilidade.
+Desempenho previsível.
+Dimensionamento fácil que responde rapidamente à demanda.
+Proteção dos dados, em repouso e em movimento.
+Backups automáticos e restauração pontual dos últimos 35 dias.
+Segurança de nível empresarial e conformidade com a legislação.
+O sistema usa o preço pago conforme o uso para que você pague apenas pelo que usar.
 
-# Azure Cosmos DB
+Os servidores do Banco de Dados do Azure para MySQL oferecem recursos de monitoramento para adicionar alertas e ver métricas e logs.
 
-- Azure Cosmos DB </p>
+Banco de Dados do Azure para MariaDB
+Logotipo do Banco de Dados do Azure para MariaDBO Banco de Dados do Azure para MariaDB é uma implementação do sistema de gerenciamento de banco de dados MariaDB adaptado para execução no Azure. Baseia-se na Community Edition do MariaDB.
 
-O Azure Cosmos DB é um sistema de banco de dados não relacional (NoSQL) de escala global que dá suporte a várias APIs (interfaces de programação de aplicativo), permitindo que você armazene e gerencie dados como documentos JSON, pares chave-valor, famílias de colunas e grafos.
+O banco de dados é totalmente gerenciado e controlado pelo Azure. Depois de provisionar o serviço e transferir seus dados, o sistema não requer quase nenhuma administração adicional.
 
-Em algumas organizações, instâncias do Cosmos DB podem ser provisionadas e gerenciadas por um administrador de banco de dados, embora os desenvolvedores de software tenham o costume de gerenciar o armazenamento de dados NoSQL como parte da arquitetura geral do aplicativo. Os engenheiros de dados geralmente precisam integrar fontes de dados do Cosmos DB a soluções analíticas corporativas que dão suporte à modelagem e geração de relatórios por analistas de dados.
+Benefícios do Banco de Dados do Azure para MariaDB
+O Banco de Dados do Azure para MariaDB oferece:
 
-# Armazenamento do Azure
+Alta disponibilidade interna sem nenhum custo adicional.
+Desempenho previsível, com preços pré-pagos inclusivos.
+Dimensionamento em segundos, conforme o necessário.
+Proteção para dados confidenciais em repouso e em movimento.
+Backups automáticos e restauração pontual por até 35 dias.
+Segurança e conformidade de nível empresarial.
+Banco de Dados do Azure para PostgreSQL
+Logotipo do Banco de Dados do Azure para PostgreSQLSe preferir o PostgreSQL, você poderá escolher o Banco de Dados do Azure para PostgreSQL para executar uma implementação de PaaS do PostgreSQL na nuvem do Azure. Esse serviço fornece os mesmos benefícios de disponibilidade, desempenho, dimensionamento, segurança e administração que o MySQL.
 
-Azure Storage logo O Armazenamento do Azure é um serviço principal do Azure que permite armazenar dados em:
+Alguns recursos dos bancos de dados PostgreSQL locais não estão disponíveis no Banco de Dados do Azure para PostgreSQL. Esses recursos se encarregam principalmente das extensões que os usuários podem adicionar a um banco de dados para executar tarefas especializadas, como escrever procedimentos armazenados em várias linguagens de programação (além de pgsql, que está disponível) e interagir diretamente com o sistema operacional. Há compatibilidade com um conjunto básico de extensões usadas com mais frequência e a lista de extensões disponíveis está sob análise contínua.
 
-- Contêineres de blobs – armazenamento escalonável e econômico para arquivos binários.
-Compartilhamentos de arquivos – compartilhamentos de arquivos de rede, semelhante ao que normalmente é encontrado nas redes corporativas.
-Tabelas – armazenamento de chave-valor para aplicativos que precisam ler e gravar valores de dados rapidamente.
-Os engenheiros de dados usam o Armazenamento do Azure para hospedar data lakes – armazenamentos de blobs com um namespace hierárquico que permite que os arquivos sejam organizados em pastas em um sistema de arquivos distribuído.
+Banco de Dados do Azure para PostgreSQL Servidor Flexível
+A opção de implantação de servidor flexível para PostgreSQL é um serviço de banco de dados totalmente gerenciado. Ele fornece um alto nível de controle e personalizações de configuração do servidor, além de oferecer melhores controles de otimização de custo.
 
-# Fábrica de dados do Azure (data Factor)
-- Azure Data Factory
-O Azure Data Factory é um serviço do Azure que permite definir e agendar pipelines de dados para transferir e transformar dados. Você pode integrar seus pipelines a outros serviços do Azure, possibilitando a ingestão de dados de armazenamentos de dados na nuvem, o processamento dos dados usando a computação baseada em nuvem e a manutenção dos resultados em outro armazenamento de dados.
+Benefícios do Banco de Dados do Azure para PostgreSQL
+O Banco de Dados do Azure para PostgreSQL é um serviço altamente disponível. Ele contém mecanismos internos de detecção de falha e failover.
 
-O Azure Data Factory é usado por engenheiros de dados para criar soluções de ETL (extração, transformação e carregamento) que preenchem os armazenamentos de dados analíticos com os dados de sistemas transacionais na organização.
+Os usuários do PostgreSQL conhecerão a ferramenta pgAdmin, que você pode usar para gerenciar e monitorar um banco de dados PostgreSQL. Você pode continuar a usar essa ferramenta para se conectar ao Banco de Dados do Azure para PostgreSQL. No entanto, alguns recursos voltados para o servidor, como executar backup e restauração do servidor, não estão disponíveis porque o servidor é gerenciado e mantido pela Microsoft.
 
-# Azure Synapse Analytics
-Azure Synapse Analytics logo O Azure Synapse Analytics é uma solução de análise de dados abrangente e unificada que oferece uma interface de serviço única para vários recursos analíticos, incluindo:
-
-- Pipelines – baseado na mesma tecnologia do Azure Data Factory.
-SQL – um mecanismo de banco de dados SQL altamente escalonável, otimizado para cargas de trabalho de data warehouse.
-Apache Spark – um sistema de processamento de dados distribuído de código aberto que dá suporte a várias linguagens de programação e APIs, incluindo Java, Scala, Python e SQL.
-- Data Explorer do Azure Synapse – uma solução de análise de dados de alto desempenho que é otimizada para consultas em tempo real de dados de log e telemetria usando a KQL (Linguagem de Consulta Kusto).
-Os engenheiros de dados podem usar o Azure Synapse Analytics para criar uma solução de análise de dados unificada que combina pipelines de ingestão de dados, armazenamento de data warehouse e armazenamento do data lake em um único serviço.
-
-Os analistas de dados podem usar pools de SQL e do Spark por meio de notebooks interativos para explorar e analisar dados e aproveitar a integração com serviços como Azure Machine Learning e Microsoft Power BI para criar modelos de dados e extrair insights dos dados.
-
-# Azure Databricks
-Azure Databricks logo O Azure Databricks é uma versão integrada do Azure da plataforma popular do Databricks, que combina a plataforma de processamento de dados Apache Spark com a semântica de banco de dados SQL e uma interface de gerenciamento integrada para permitir a análise de dados em larga escala.
-
-Os engenheiros de dados podem usar as habilidades que já têm do Databricks e do Spark para criar armazenamentos de dados analíticos no Azure Databricks.
-
-Os analistas de dados podem usar o suporte nativo ao notebook no Azure Databricks para consultar e visualizar dados em uma interface baseada na Web fácil de usar.
-
-# Azure HDInsight
-Azure HDInsight logo O Azure HDInsight é um serviço do Azure que fornece clusters hospedados no Azure para tecnologias populares de código aberto de processamento de Big Data do Apache, incluindo:
-
-- Apache Spark – um sistema de processamento de dados distribuído que dá suporte a várias linguagens de programação e APIs, incluindo Java, Scala, Python e SQL.
-- Apache Hadoop – um sistema distribuído que usa trabalhos MapReduce para processar grandes volumes de dados com eficiência em vários nós de cluster. Os trabalhos MapReduce podem ser escritos em Java ou abstraídos por interfaces como Apache Hive, uma API baseada em SQL que é executada no Hadoop.
-- Apache HBase – um sistema de código aberto para armazenamento e consulta de dados NoSQL em larga escala.
-- Apache Kafka – um agente de mensagens para processamento de fluxo de dados.
-- Apache Storm – um sistema de código aberto para processamento de dados em tempo real por meio de uma topologia de spouts e bolts.
-Os engenheiros de dados podem usar o Azure HDInsight para dar suporte a cargas de trabalho de análise de Big Data que dependem de várias tecnologias de código aberto.
-
-# Stream Analytics do Azure
-Azure Stream Analytics logo O Azure Stream Analytics é um mecanismo de processamento de fluxo em tempo real que captura um fluxo de dados de uma entrada, aplica uma consulta para extrair e manipular os dados do fluxo de entrada e grava os resultados em uma saída para análise ou processamento adicional.
-
-Os engenheiros de dados podem incorporar o Azure Stream Analytics em arquiteturas de análise de dados que capturam fluxos dados para ingestão em um armazenamento de dados analíticos ou para visualização em tempo real.
-
-# Azure Data Explorer
-Azure Data Explorer logo O Azure Data Explorer é um serviço autônomo que oferece a mesma consulta de alto desempenho de dados de log e telemetria que o runtime do Data Explorer do Azure Synapse no Azure Synapse Analytics.
-
-Os analistas de dados podem usar o Azure Data Explorer para consultar e analisar dados que incluem um atributo de carimbo de data/hora, como normalmente é encontrado em arquivos de log e dados de telemetria da IoT (Internet das Coisas).
-
-# Microsoft Purview
-Azure Purview logo O Microsoft Purview fornece uma solução para governança e descoberta de dados de toda a empresa. Use o Microsoft Purview para criar um mapa de seus dados e acompanhar a linhagem de dados em várias fontes de dados e sistemas, permitindo encontrar dados confiáveis para análise e relatórios.
-
-Os engenheiros de dados podem usar o Microsoft Purview para impor a governança de dados em toda a empresa e garantir a integridade dos dados usados para dar suporte a cargas de trabalho analíticas.
-
-# Microsoft Power BI
-Microsoft Power BI logo O Microsoft Power BI é uma plataforma para modelagem de dados analíticos e relatórios que os analistas de dados podem usar para criar e compartilhar visualizações de dados interativas. Os relatórios do Power BI podem ser criados por meio do aplicativo Power BI Desktop e, em seguida, publicados e fornecidos por meio de relatórios e aplicativos baseados na Web no serviço do Power BI, bem como no aplicativo móvel do Power BI.
+O Banco de Dados do Azure para PostgreSQL registra informações sobre as consultas executadas em bancos de dados no servidor e as salva em um banco de dados chamado azure_sys. Consulte a exibição query_store.qs_view para ver essas informações e usá-las para monitorar as consultas que os usuários estão executando. Essas informações podem se mostrar valiosas se você precisa ajustar as consultas executadas por seus aplicativos.

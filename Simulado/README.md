@@ -229,3 +229,11 @@ Explicação:
 Resposta Correta: Índices clusterizados.
 
 Referência: https://docs.microsoft.com/pt-br/sql/relational-databases/indexes/clustered-and-nonclustered-indexes-described?view=sql-server-ver15
+
+# Pergunta 20
+
+Qual API do Azure Cosmos DB permite implementar um banco de dados não relacional e nós de modelo que têm relacionamentos entre eles?
+
+R: Apache Gremilin
+
+Link:  https://learn.microsoft.com/pt-br/azure/cosmos-db/gremlin/introduction
